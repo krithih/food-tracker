@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function uploadFile(event) {
     event.preventDefault();  // this doesn't let the page reload when form is submitted
 
@@ -25,7 +25,7 @@ function uploadFile(event) {
         document.getElementById("uploadMessage").innerText = "Upload failed: " + error.message; //if anything goes wrong in fetch(), error message displayed
     });
 }
-=======
+
 function uploadFile(event) {
     event.preventDefault();  // this doesn't let the page reload when form is submitted
 
@@ -52,4 +52,4 @@ function uploadFile(event) {
         document.getElementById("uploadMessage").innerText = "Upload failed: " + error.message; //if anything goes wrong in fetch(), error message displayed
     });
 }
->>>>>>> fc0aede (got file upload working)
+
