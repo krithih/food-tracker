@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Index.html
 Style.css
 script.js
@@ -48,4 +49,56 @@ OCR (Extracting Food Items)	Google Cloud Vision API or Tesseract OCR
 Expiration Date Prediction	Simple SQLite/Firebase database with shelf-life data
 Recipe Suggestions	Spoonacular API
 Food Bank Locator	Google Maps API
+=======
+Index.html
+Style.css
+script.js
+uploads image folder
+
+1/27 progress
+updated uploadreceipt() function
+
+
+
+Great choice! Here’s a beginner-friendly breakdown of how you can build an AI-Powered Food Waste Tracker for the Girls Who Code AI + Sustainability Challenge.
+
+🌱 Project: AI-Powered Food Waste Tracker
+🚀 Idea Summary
+A mobile or web app where users scan grocery receipts, and AI predicts food expiration dates while suggesting recipes and donation options to reduce food waste.
+
+🔑 Key Features
+Scan Grocery Receipts 📸
+
+Users upload a picture of their receipt.
+AI extracts item names using Optical Character Recognition (OCR).
+Predict Expiration Dates 🥦
+
+The app estimates when each item will expire based on typical shelf life.
+Users receive reminders before food goes bad.
+Suggest Ways to Use Food 🍽️
+
+AI recommends recipes based on food that’s about to expire.
+Encourage Donations ❤️
+
+If users don’t plan to eat something, the app suggests nearby food banks or community fridges.
+🧠 How AI is Integrated
+🔍 1. Optical Character Recognition (OCR) for Receipt Scanning
+What it does: Converts text from receipt images into editable text.
+How to implement it: Use Google Cloud Vision API or Tesseract OCR (open-source).
+📊 2. Machine Learning for Expiration Prediction
+What it does: Uses a predefined dataset of food shelf-life to estimate when an item will go bad.
+How to implement it: Create a database with common foods and their average expiration times (e.g., "Milk: 7 days after purchase").
+🍽️ 3. Recipe Recommendation with AI
+What it does: Suggests recipes using ingredients the user has.
+How to implement it: Use an API like Spoonacular to generate recipes based on available ingredients.
+
+🛠️ Tech Stack (Beginner-Friendly Website Approach)
+Component	Tool/Technology
+Frontend (User Interface)	HTML, CSS, JavaScript
+Backend (Processing Logic)	Python (Flask or Django)
+OCR (Extracting Food Items)	Google Cloud Vision API or Tesseract OCR
+Expiration Date Prediction	Simple SQLite/Firebase database with shelf-life data
+Recipe Suggestions	Spoonacular API
+Food Bank Locator	Google Maps API
+>>>>>>> fc0aede (got file upload working)
 Hosting	GitHub Pages (Frontend), Flask/Django on Render/Heroku

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,3 +36,42 @@
     <script src="script.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Food Waste Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>AI-Powered Food Waste Tracker</h1>
+        <p>Track your groceries and reduce food waste with AI!</p>
+    </header>
+
+    <main>
+        <section class="upload-section">  <!-- to upload receipts -->
+            <h2>Upload Your Grocery Receipt</h2>
+            <form onsubmit="uploadFile(event)" enctype="multipart/form-data">
+                <input type="file" name="file" id="fileUpload" accept="image/*">
+                <button type="submit">Upload</button>  
+            </form>
+            <p id="uploadMessage"></p>  <!-- to show messages updating the file status (not uploaded, uploaded successfully) -->
+            
+        </section>
+
+        <section class="results-section">
+            <h2>Extracted Food Items</h2>
+            <ul id="foodList"> 
+                <!-- Extracted food items will be displayed here -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+>>>>>>> fc0aede (got file upload working)
