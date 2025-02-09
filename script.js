@@ -12,16 +12,25 @@ function uploadFile(event) {
     formData.append("file", file);    //adds the file to the container, the key "file" matches the key in the backend flask app.py
 
 
-    fetch("http://127.0.0.1:5000/upload", {   // sends request to /upload Flask route (5000 instead of live server 5500 route)
-        method: "POST",   //sending data, as opposed to "GET" which requests data
-        body: formData    //send file
+    fetch("http://127.0.0.1:5000/upload", {
+        method: "POST",
+        body: formData
     })
-    .then(response => response.text())  //Flask responds w Promise, .text() converts it to string
+    .then(response => {
+        console.log("Response status:", response.status);
+        return response.json();
+    })
     .then(data => {
-        document.getElementById("uploadMessage").innerText = data;  //updates the "uploadMessage" id paragraph with the text response from Flask
+        console.log("Server Response:", data);
+        console.log("Message:", data.message);
+        console.log("Extracted Text:", data.extracted_text);
+    
+        document.getElementById("uploadMessage").innerText = data.message || "Upload completed";
+        document.getElementById("extractedText").innerText = data.extracted_text ? "Extracted Text: " + data.extracted_text : "No text extracted.";
     })
     .catch(error => {
-        document.getElementById("uploadMessage").innerText = "Upload failed: " + error.message; //if anything goes wrong in fetch(), error message displayed
+        console.error("Fetch error:", error);
+        document.getElementById("uploadMessage").innerText = "Upload failed: " + error.message;
     });
 }
 
