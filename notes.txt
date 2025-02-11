@@ -1,0 +1,5 @@
+Things to download
+Tesseract_OCR
+   - edit environment variables, add path: C:\Program Files\Tesseract_OCR\tesseract.exe
+pip install flask, and CORS
+pip install pytesseract

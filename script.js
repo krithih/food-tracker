@@ -33,4 +33,3 @@ function uploadFile(event) {
         document.getElementById("uploadMessage").innerText = "Upload failed: " + error.message;
     });
 }
-

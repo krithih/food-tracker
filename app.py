@@ -53,10 +53,12 @@ def upload_file():
 
         # Call OCR function to extract text
         extracted_text = extract_text(file_path)
+        print(extracted_text)
       
 
         # Process the text to extract structured info
         receipt_info = extract_receipt_info(extracted_text)
+        print(receipt_info)
 
         return jsonify({
             "message": f"File {file.filename} uploaded successfully!",
@@ -80,53 +82,48 @@ def extract_text(image_path):
     
     # Clean text
     text = text.lower().strip()  # Convert to lowercase & trim spaces
-    text = re.sub(r"[^a-z0-9\.\$\s]", "", text)  # Remove special characters except . and $
+    text = re.sub(r"(.+?)\s+\$?(\d+\.\d{2})", "", text)  # Remove special characters except . and $
     return text
     
     
-
 def extract_receipt_info(text):
-    """Extracts structured information from receipt text."""
-    lines = text.split("\n")  # Split by lines
+    lines = text.split("\n")
     items = []
     total_price = None
     date = None
 
-    # Patterns for price and total
-    price_pattern = r"\d+\.\d{2}"  # Matches prices like 12.99
-    total_pattern = r"total\s*\$?(\d+\.\d{2})"  # Matches "Total $12.99"
-    date_pattern = r"\d{1,2}/\d{1,2}/\d{2,4}"  # Matches dates like 12/25/2024
+    item_price_pattern = r"([a-z\s]+)\s+\$?(\d+\.\d{2})"
+    total_pattern = r"total\s*\$?(\d+\.\d{2})"
+    date_pattern = r"\d{1,2}/\d{1,2}/\d{2,4}"
 
     for line in lines:
         line = line.strip()
-        
-        # Check if line contains a price
-        price_match = re.findall(price_pattern, line)
-        if price_match:
-            items.append(line)  # Store the full line
+        print(f"Processing line: {line}")
 
-        # Check for total amount
-        total_match = re.search(total_pattern, line)
+        item_match = re.search(item_price_pattern, line)
+        if item_match:
+            item_name = item_match.group(1).strip()
+            price = item_match.group(2)
+            items.append({"item": item_name, "price": price})
+            print(f"Matched item: {item_name}, price: {price}")
+
+        total_match = re.search(total_pattern, line, re.IGNORECASE)
         if total_match:
             total_price = total_match.group(1)
+            print(f"Matched total: {total_price}")
 
-        # Check for date
         date_match = re.search(date_pattern, line)
         if date_match:
             date = date_match.group()
-        
-    if date == None:
-        date = "Could not extract a date"
-    if total_price == None: 
-        total_price = "Could not extract a total price"
-
-    print(date, total_price, items)
+            print(f"Matched date: {date}")
 
     return {
         "items": items,
         "total_price": total_price,
         "date": date
     }
+
+
     
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
