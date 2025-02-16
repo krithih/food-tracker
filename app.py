@@ -2,19 +2,15 @@
 from flask import Flask, request, jsonify
 import os
 from flask_cors import CORS #cors enables requests from different port origins
-import pytesseract
-# Manually specify the Tesseract executable path
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
-from PIL import Image
 import cv2
 import numpy as np
- 
-import re #python module for regex
+from extract_info import *
+
 
 
 app = Flask(__name__)
 CORS(app, resources={r"/upload": {"origins": "http://localhost:5500"}})
+
 
 # Define upload folder
 UPLOAD_FOLDER = "uploads"
@@ -53,7 +49,11 @@ def upload_file():
 
         # Call OCR function to extract text
         extracted_text = extract_text(file_path)
-        print(extracted_text)
+        print(f"Extracted text: {extracted_text}")
+
+        if not extracted_text:
+            print("No text extracted from the image")
+            return jsonify({"message": "Failed to extract text from image"}), 400
       
 
         # Process the text to extract structured info
@@ -69,59 +69,6 @@ def upload_file():
     print("Invalid file type")  # Debugging line
     return jsonify({"message": "Invalid file type"}), 400
 
-
-def extract_text(image_path):
-    # Open image using PIL
-    image = Image.open(image_path)
-
-    # Convert image to grayscale for better OCR accuracy
-    image = image.convert("L")  # Convert to grayscale
-
-    # Apply OCR
-    text = pytesseract.image_to_string(image)
-    
-    # Clean text
-    text = text.lower().strip()  # Convert to lowercase & trim spaces
-    text = re.sub(r"(.+?)\s+\$?(\d+\.\d{2})", "", text)  # Remove special characters except . and $
-    return text
-    
-    
-def extract_receipt_info(text):
-    lines = text.split("\n")
-    items = []
-    total_price = None
-    date = None
-
-    item_price_pattern = r"([a-z\s]+)\s+\$?(\d+\.\d{2})"
-    total_pattern = r"total\s*\$?(\d+\.\d{2})"
-    date_pattern = r"\d{1,2}/\d{1,2}/\d{2,4}"
-
-    for line in lines:
-        line = line.strip()
-        print(f"Processing line: {line}")
-
-        item_match = re.search(item_price_pattern, line)
-        if item_match:
-            item_name = item_match.group(1).strip()
-            price = item_match.group(2)
-            items.append({"item": item_name, "price": price})
-            print(f"Matched item: {item_name}, price: {price}")
-
-        total_match = re.search(total_pattern, line, re.IGNORECASE)
-        if total_match:
-            total_price = total_match.group(1)
-            print(f"Matched total: {total_price}")
-
-        date_match = re.search(date_pattern, line)
-        if date_match:
-            date = date_match.group()
-            print(f"Matched date: {date}")
-
-    return {
-        "items": items,
-        "total_price": total_price,
-        "date": date
-    }
 
 
     

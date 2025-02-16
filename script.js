@@ -27,7 +27,7 @@ function uploadFile(event) {
     
         document.getElementById("uploadMessage").innerText = data.message || "Upload completed";
         document.getElementById("extractedText").innerText = data.extracted_text ? "Extracted Text: " + data.extracted_text : "No text extracted.";
-    })
+        })
     .catch(error => {
         console.error("Fetch error:", error);
         document.getElementById("uploadMessage").innerText = "Upload failed: " + error.message;

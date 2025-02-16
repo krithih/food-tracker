@@ -3,3 +3,29 @@ Tesseract_OCR
    - edit environment variables, add path: C:\Program Files\Tesseract_OCR\tesseract.exe
 pip install flask, and CORS
 pip install pytesseract
+pip install fuzzywuzzy python-Levenshtein
+
+
+
+Things to do: 
+fuzzywuzzy: make a 
+
+
+receipt_info extraction: dictionary ->
+{
+        "items": items,
+        "total_price": total_price,
+        "date": date
+    }
+
+    items = another dictionary -> item_name, price
+
+
+def find_closest_food(item_name):
+    """Finds the best match for an item using fuzzy string matching."""
+    best_match, score = process.extractOne(item_name, food_db["Item Name"])
+    
+    if score > 80:  # Only consider strong matches
+        return food_db[food_db["Item Name"] == best_match].iloc[0]
+    else:
+        return None  
