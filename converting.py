@@ -1,5 +1,7 @@
 import json
 import pandas as pd
+'''This file was used to convert the JSON File I downloaded from the USDA website to a csv, so it was easier for the AI model to read it'''
+#food_data.json ---> test.csv
 
 # Open JSON file
 with open('food_data.json', encoding="utf8") as f:
@@ -96,4 +98,4 @@ df = pd.DataFrame(new_dict)
 # Save to CSV
 df.to_csv("test.csv", index=False)
 
-print("CSV file successfully created!")
+print("CSV file created")
