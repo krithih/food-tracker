@@ -1,0 +1,662 @@
+ID,Category_ID,Name,Keywords,Pantry_shelf_life,Pantry_metric,Refrigerator_shelf_life,Refrigerator_metric,Freezer_shelf_life,Freezer_metric
+1,7,Butter,Butter,,,2.0,Months,9.0,Months
+2,7,Buttermilk,Buttermilk,,,2.0,Weeks,3.0,Months
+3,7,"Cheese (hard such as cheddar, swiss, block parmesan)","Cheese,cheddar, swiss,parmesan",,,6.0,Months,6.0,Months
+4,7,Cheese (parmesan; shredded or grated),"Cheese,parmesan,shredded,grated",,,12.0,Months,,
+5,7,"Cheese (shredded; cheddar, mozzarella, etc.)","Cheese,shredded,cheddar,mozzarella",,,1.0,Months,4.0,Months 
+6,7,Cheese (processed slices),"Cheese,processed slices,slices,slice",,,4.0,Weeks,,
+7,7,"Cheese (soft such as brie, bel paese, goat)","Cheese,brie, bel paese, goat",,,2.0,Weeks,6.0,Months
+8,7,Coffee creamer (liquid refrigerated),"Coffee creamer,Coffee, creamer,liquid refrigerated",,,3.0,Weeks,,
+9,7,Cottage cheese,"Cottage cheese,cheese",,,2.0,Weeks,,
+10,7,Cream cheese,,,,2.0,Weeks,,
+11,7,"Cream (whipping, ultrapasteurized)","Cream,whipping,ultrapasteurized",,,1.0,Months,,
+12,7,"Cream (whipped, sweetened)","Cream,whipped, sweetened",,,1.0,Days,2.0,Months
+13,7,Cream (half and half),"Cream,half",,,4.0,Days,4.0,Months
+14,7,Cream (heavy),"Cream,heavy",,,10.0,Days,4.0,Months
+15,7,Cream (light),"Cream,light",,,1.0,Weeks,4.0,Months
+16,7,Dips (sour cream based),"Dips,sour cream based,sour,cream based,cream,dip",,,2.0,Weeks,,
+17,7,Egg substitutes (liquid),"Egg substitutes,liquid,egg,substitutes,substitute",,,7.0,Days,,
+20,7,Eggnog (commercial),"Eggnog,commercial,egg,nog",,,5.0,Days,6.0,Months
+21,7,Eggs (in shell),"Eggs,in shell,egg,shell",,,5.0,Weeks,,
+22,7,"Eggs (raw whites, yolks)","Eggs,raw whites, yolks,egg,whites",,,4.0,Days,12.0,Months
+23,7,Eggs (hard boiled cooked),"Eggs,egg,hard boiled cooked,boiled,hard boiled",,,1.0,Weeks,,
+24,7,Egg dishes,"Egg dishes,egg,dishes",,,4.0,Days,3.0,Months
+25,7,Kefir (fermented milk),"Kefir,fermented milk,milk,fermented",,,1.0,Weeks,,
+26,7,Margarine,Margarine,,,6.0,Months,12.0,Months
+27,7,Milk (plain or flavored),"Milk,plain,flavored,flavor",,,,,3.0,Months
+28,7,Pudding,Pudding,,,,,,
+29,7,Sour cream,"Sour cream,cream,sour",,,,,,
+30,7,Whipped cream (aerosol can),"Whipped cream,cream,aerosol can,can",,,4.0,Weeks,,
+31,7,Whipped topping (aerosol can),"Whipped topping,topping,aerosol can,can,whipped",,,3.0,Months,,
+32,7,Whipped topping (tub),"Whipped topping,topping,tub,whipped",,,2.0,Weeks,14.0,Months
+33,7,Yogurt,Yogurt,,,2.0,Weeks,2.0,Months
+34,10,"Beef (rib roast, bone-in)","Beef,rib roast,bone-in,roast,bone,rib",,,5.0,Days,12.0,Months
+35,10,"Beef (rib roast; boneless, rolled)","Beef,rib roast,boneless,rolled,roast,rib",,,5.0,Days,12.0,Months
+36,10,Beef (round or rump roast),"Beef,round,rump roast,roast",,,5.0,Days,12.0,Months
+37,10,"Beef (tenderloin, whole)","Beef,tenderloin,whole",,,5.0,Days,12.0,Months
+38,10,"Beef (tenderloin, half)","Beef,tenderloin,half",,,5.0,Days,12.0,Months
+39,10,"Beef (chuck roast, brisket)","Beef,chuck roast,roast,brisket",,,5.0,Days,12.0,Months
+40,10,Beef (steaks),"Beef,steaks,steak",,,5.0,Days,12.0,Months
+41,10,"Beef (stew, cubes)","Beef,stew, cubes,cube",,,5.0,Days,12.0,Months
+42,10,Beef (short ribs),"Beef,short ribs,ribs,rib",,,5.0,Days,12.0,Months
+43,10,Beef (ground),"Beef,ground",,,2.0,Days,4.0,Months
+44,10,"Lamb (leg, bone-in - small)","Lamb,leg,bone-in - small,bone-in,bone",,,5.0,Days,12.0,Months
+45,10,"Lamb (leg, bone-in - large)","Lamb,leg,bone-in - large,bone-in,bone",,,5.0,Days,12.0,Months
+46,10,"Lamb (leg; boneless, rolled)","Lamb,leg,boneless,rolled,bone",,,5.0,Days,12.0,Months
+47,10,Lamb (crown roast),"Lamb,crown roast,roast",,,5.0,Days,12.0,Months
+48,10,Lamb (shoulder roast or shank leg half),"Lamb,shoulder roast,roast,shoulder,shank leg half,half,shank,shank leg,leg",,,5.0,Days,12.0,Months
+49,10,Lamb (cubes for kabobs),"Lamb,cubes,kabobs,cube,kabob",,,5.0,Days,12.0,Months
+50,10,Lamb (ground),"Lamb,ground",,,2.0,Days,4.0,Months
+51,10,"Lamb (chops, ribs, or loin)","Lamb,chops,ribs,loin,rib",,,5.0,Days,12.0,Months
+52,10,Lamb (leg steaks),"Lamb,leg steaks,steaks,steak,leg",,,5.0,Days,12.0,Months
+53,10,"Lamb (stew meat, pieces)","Lamb,stew,pieces,stew meat,meat,piece",,,5.0,Days,12.0,Months
+54,10,Lamb (shanks),"Lamb,shanks,shank",,,5.0,Days,12.0,Months
+55,10,"Lamb (breast, rolled)","Lamb,breast,rolled",,,5.0,Days,12.0,Months
+56,10,"Veal (shoulder roast, boneless)","Veal,shoulder,boneless,shoulder roast,roast",,,5.0,Days,12.0,Months
+57,10,"Veal (leg rump or round roast, boneless)","Veal,leg rump,rump,leg,round,round roast,roast,boneless",,,5.0,Days,12.0,Months
+58,10,"Veal (loin roast, bone-in)","Veal,loin roast,bone-in,roast,bone,loin",,,5.0,Days,12.0,Months
+59,10,Veal (ground),"Veal,ground",,,2.0,Days,4.0,Months
+60,10,"Pork (loin roast, bone-in)","Pork,loin roast,bone-in,roast,bone,loin",,,5.0,Days,12.0,Months
+61,10,"Pork (loin roast, boneless)","Pork,loin,boneless,loin roast,roast",,,5.0,Days,12.0,Months
+63,10,"Pork (loin chops, bone-in)","Pork,loin chops,bone-in,chops,bone,loin",,,5.0,Days,12.0,Months
+64,10,"Pork (loin chops, boneless)","Pork,loin,boneless,loin chops,chops",,,5.0,Days,12.0,Months
+65,10,Pork (crown roast - small),"Pork,roast,crown,crown roast - small,small,crown roast",,,5.0,Days,12.0,Months
+66,10,Pork (crown roast - large),"Pork,roast,crown,crown roast - large,large,crown roast",,,5.0,Days,12.0,Months
+67,10,Pork (tenderloin),"Pork,tenderloin",,,5.0,Days,12.0,Months
+69,10,Pork (tenderloin medallions or loin cubes),"Pork,tenderloin,tenderloin medallions,loin cubes,medallion,loin cube,loin,medallions,cube,cubes",,,5.0,Days,12.0,Months
+70,10,"Goat (tender whole cuts (legs, ribs, shoulder, loin))","Goat,tender whole cuts,legs,ribs,shoulder,loin,tender,whole cuts,leg,rib",,,5.0,Days,12.0,Months
+71,10,"Goat (less tender whole cuts (stew meat, riblets, shanks))","Goat,less tender whole cuts,stew meat,stew,meat,riblets,shanks,whole cuts,tender,less tender",,,5.0,Days,12.0,Months
+72,10,Pork (ribs),"Pork,ribs,rib",,,5.0,Days,12.0,Months
+73,10,Pork (ground),"Pork,ground",,,2.0,Days,4.0,Months
+74,10,Pork (shoulder),"Pork,shoulder",,,5.0,Days,12.0,Months
+75,10,"Pork (loin, cubes)","Pork,loin,cubes,cube",,,5.0,Days,12.0,Months
+76,10,"Venison (round, rump, loin, or rib roast)","Venison,rump,round,loin,rib,rib roast,roast",,,5.0,Days,12.0,Months
+77,10,"Variety meats (liver, tongue, chitterlings, etc.)","Variety meats,liver,tongue,chitterlings,meats,meat,chitterling",,,2.0,Days,4.0,Months
+78,10,Goat (ground),"Goat,ground",,,2.0,Days,4.0,Months
+79,12,Bacon,Bacon,,,1.0,Weeks,1.0,Months
+81,12,Corned beef (in pouch with pickling juices),"Corned beef,pouch,pickling juices,juices,juice",,,7.0,Days,1.0,Months
+82,12,Ham (canned (“keep refrigerated” label)),"Ham,canned,keep refrigerated,label,refrigerated",,,9.0,Months,,
+83,12,"Ham (fully cooked, bone-in, whole)","Ham,fully cooked,bone-in,whole,cooked,bone",,,1.0,Weeks,2.0,Months
+84,12,"Ham (fully cooked, bone-in, half)","Ham,fully cooked,bone-in,half,cooked,bone",,,1.0,Weeks,2.0,Months
+85,12,"Ham (fully cooked, slices, half, or spiral cut)","Ham,fully cooked,slices,half,spiral cut,cooked,slice",,,4.0,Days,2.0,Months
+86,12,"Ham (fully cooked, arm picnic shoulder, boneless)","Ham,fully cooked,cooked,arm picnic shoulder,boneless,shoulder,arm picnic",,,1.0,Weeks,2.0,Months
+87,12,"Ham (fully cooked, canned, boneless (refrigerated))","Ham,fully cooked,cooked,canned,boneless,refrigerated",,,9.0,Months,2.0,Months
+88,12,"Ham (fully cooked, vacuum packed, boneless)","Ham,fully cooked,cooked,vacuum packed,boneless",,,2.0,Weeks,2.0,Months
+89,12,"Ham (fresh, cook-before-eating, bone-in, whole)","Ham,fresh,cook-before-eating,bone-in,whole,bone",,,1.0,Weeks,2.0,Months
+90,12,"Ham (fresh, cook-before-eating, bone-in, half)","Ham,fresh,cook-before-eating,bone-in,half,bone",,,1.0,Weeks,2.0,Months
+91,12,"Ham (fresh, cook-before-eating, shank or butt portion, bone-in)","Ham,fresh,cook-before-eating,shank,butt portion,bone-in,bone",,,1.0,Weeks,2.0,Months
+92,12,"Ham (fresh, cook-before-eating, arm picnic shoulder, boneless)","Ham,fresh,cook-before-eating,before-eating,arm picnic shoulder,boneless,arm picnic,shoulder",,,1.0,Weeks,2.0,Months
+93,12,"Ham (fresh, cook-before-eating, shoulder roll (butt), boneless)","Ham,fresh,cook-before-eating,before-eating,shoulder roll,butt,boneless,roll",,,1.0,Weeks,2.0,Months
+94,12,"Ham (fresh, uncooked, whole leg, bone-in)","Ham,fresh,uncooked,whole leg,bone-in,cooked,leg,bone",,,1.0,Weeks,2.0,Months
+95,12,"Ham (fresh, uncooked, whole leg, boneless)","Ham,fresh,uncooked,whole leg,boneless,cooked,leg,bone",,,1.0,Weeks,2.0,Months
+96,12,"Ham (fresh, uncooked, half leg, bone-in)","Ham,fresh,uncooked,half leg,bone-in,bone,leg,cooked",,,1.0,Weeks,2.0,Months
+97,12,Ham (country ham (whole or half)),"Ham,country ham,whole,half",,,1.0,Weeks,2.0,Months
+98,12,Hot dogs,"Hot dogs,hot",,,2.0,Weeks,2.0,Months
+102,12,Sausage (raw bulk type or patties),"Sausage,raw bulk type,patties,raw,patty",,,2.0,Days,2.0,Months
+103,12,"Sausage (fully cooked smoked links, kielbasa)","Sausage,fully cooked smoked links,kielbasa,smoked links,links,fully cooked,link",,,1.0,Weeks,2.0,Months
+104,12,"Sausage (hard, dry (pepperoni), sliced)","Sausage,hard,dry,pepperoni,sliced,slice,dry pepperoni",,,3.0,Weeks,2.0,Months
+105,13,"Stuffed, raw pork chops","Stuffed,raw pork chops,chops,raw pork,pork",,,2.0,Days,9.0,Months
+106,13,Raw kabobs with vegetables,"Raw kabobs,vegetables,kabobs,kabob",,,2.0,Days,4.0,Months
+107,11,Bacon (fully cooked),"Bacon,fully cooked,cooked",6.0,Months,,,,
+108,11,Ham (shelf-stable cans),"Ham,shelf stable cans,cans,shelf stable,shelf,stable,can",9.0,Months,,,,
+109,11,Jerky (commercially dried),"Jerky,commercially dried,dried",12.0,Months,,,,
+110,11,Jerky (homemade),"Jerky,homemade",2.0,Months,2.0,Months,,
+111,11,Meat products (canned),"Meat products,products,canned,meat,product",5.0,Years,,,,
+112,11,Retort pouches or boxes,"Retort pouches,boxes,box,retort,pouch",,,,,,
+113,15,Chicken (whole),"Chicken,whole",,,2.0,Days,12.0,Months
+114,15,Turkey (whole),"Turkey,whole",,,2.0,Days,12.0,Months
+115,15,Ground turkey or chicken,"Ground turkey,chicken,turkey",,,2.0,Days,4.0,Months
+116,15,"Chicken parts (breast halves, bone-in)","Chicken parts,breast halves,bone-in,halves,bone,breast,chicken,half",,,2.0,Days,9.0,Months
+117,15,"Chicken parts (breast halves, boneless)","Chicken parts,breast halves,boneless,chicken,breast,halves,half,bone",,,2.0,Days,9.0,Months
+118,15,Chicken parts (legs or thighs),"Chicken parts,legs,thighs,chicken,leg,thigh",,,2.0,Days,9.0,Months
+119,15,"Turkey parts (breast halves, bone-in)","Turkey parts,breast halves,bone-in,halves,bone,breast,half,turkey",,,2.0,Days,9.0,Months
+120,15,"Turkey parts (breast halves, boneless)","Turkey parts,breast,boneless,bone,turkey",,,2.0,Days,9.0,Months
+121,15,Turkey parts (legs or thighs),"Turkey parts,legs,thighs,turkey,leg,thigh",,,2.0,Days,9.0,Months
+123,15,"Duckling (domestic or wild, whole)","Duckling,domestic,wild,whole",,,2.0,Days,6.0,Months
+125,15,"Goose (domestic or wild, whole)","Goose,domestic,wild,whole",,,2.0,Days,6.0,Months
+126,15,"Pheasant (young, whole)","Pheasant,young,whole",,,2.0,Days,6.0,Months
+127,15,Quail (whole),"Quail,whole",,,2.0,Days,6.0,Months
+128,15,Capon (whole),"Capon,whole",,,2.0,Days,12.0,Months
+129,15,Cornish Hens (whole),"Cornish Hens,Hens,whole,Hen",,,2.0,Days,12.0,Months
+130,15,Giblets,"Giblets,giblet",,,2.0,Days,4.0,Months
+131,17,"Stuffed, raw chicken breasts","Stuffed,raw chicken breasts,breast,chicken,chicken breasts",,,2.0,Days,9.0,Months
+132,17,Raw kabobs with vegetables,"Raw kabobs,vegetables,kabobs,kabob,vegetable",,,2.0,Days,4.0,Months
+133,17,Turducken,Turducken,,,,,9.0,Months
+134,14,"Chicken nuggets, patties","Chicken nuggets, patties,chicken,nuggets,nugget,patty",,,,,3.0,Months
+135,14,Cooked poultry dishes,"Cooked poultry dishes,poultry dishes,poultry",,,4.0,Days,6.0,Months
+136,14,Fried chicken,"Fried chicken,chicken",,,4.0,Days,4.0,Months
+140,25,Poultry pieces (covered with gravy or broth),"Poultry pieces,gravy,broth,poultry,pieces,piece",,,4.0,Days,2.0,Months
+141,14,Rotisserie chicken,"Rotisserie chicken,chicken,Rotisserie",,,4.0,Days,4.0,Months
+142,16,Canned chicken,"Canned chicken,chicken,canned,can",5.0,Years,,,,
+143,16,Retort pouches or boxes,"Retort pouches,boxes,box,retort,pouch",,,,,,
+144,20,"Lean fish (cod, flounder, haddock, halibut, sole, etc.)","Lean fish,cod, flounder,haddock,halibut,sole,fish",,,2.0,Days,8.0,Months
+145,20,"Lean fish (pollock, ocean perch, rockfish, sea trout.)","Lean fish,pollock,ocean,rockfish, sea,sea trout,fish,ocean perch,perch,trout,rock",,,2.0,Days,8.0,Months
+146,20,"Fatty fish (bluefish, catfish, mackerel, mullet, salmon, tuna, etc.)","Fatty fish,bluefish,catfish,mackerel,mullet,salmon,tuna,fish,fatty,blue,cat",,,2.0,Days,3.0,Months
+147,20,"Caviar (fresh, in jar)","Caviar,fresh,jar",,,4.0,Weeks,,
+148,20,Cooked fish (all),"Cooked fish,fish,all",,,4.0,Days,2.0,Months
+149,20,Surimi seafood,"Surimi seafood,surimi,sea,food",,,,,9.0,Months
+150,21,Scallops,"Scallops,scallop",,,3.0,Days,18.0,Months
+151,21,"Shrimp, crayfish","Shrimp,crayfish,cray,fish",,,3.0,Days,18.0,Months
+152,21,Squid,Squid,,,3.0,Days,18.0,Months
+153,21,"Shucked clams, mussels, and oysters","Shucked clams,mussels,oysters,clams,clam,mussels,mussel,oyster",,,10.0,Days,4.0,Months
+154,21,Crab meat (fresh),"Crab meat,meat,fresh,crab",,,3.0,Days,4.0,Months
+155,21,Crab meat (pasteurized),"Crab meat,meat,pasteurized,crab",,,12.0,Months,10.0,Months
+156,21,"Crab legs (king, dungeness, snow)","Crab legs,king,dungeness,snow,crab,legs,leg",,,4.0,Days,12.0,Months
+157,21,"Live clams, mussels, crab, and oysters","Live clams,mussels,crab,oysters,clams,clam,mussel,oyster",,,2.0,Days,3.0,Months
+158,21,Fresh whole lobster (live),"Fresh whole lobster,lobster,live,whole lobster",,,1.0,Days,,
+159,21,Fresh lobster tails (cooked),"Fresh lobster tails,tails,cooked,lobster tails,tail",,,3.0,Days,4.0,Weeks
+160,21,"Fresh clams, mussels, oysters","Fresh clams,clams,oysters,clam,mussels,mussel,oyster",,,10.0,Days,,
+161,21,Fresh whole lobster (frozen),"Fresh whole lobster,lobster,frozen,whole lobster",,,2.0,Days,4.0,Weeks
+162,21,Cooked shellfish (all),"Cooked shellfish,shellfish,fish,cooked",,,4.0,Days,3.0,Months
+163,22,"Herring (glass packed, in wine sauce)","Herring,glass packed,wine sauce,packed,glass,wine,sauce",,,6.0,Months,,
+164,22,"Fish (hot smoked, air pack)","Fish,hot smoked,air pack,hot,smoked,pack",,,45.0,Days,12.0,Months
+165,22,"Fish (hot smoked, vacuum pack)","Fish,hot smoked,vacuum pack,hot,smoked,vacuum,pack",,,45.0,Days,12.0,Months
+166,22,"Fish (cold smoked, air pack)","Fish,cold smoked,air pack,cold,smoked,pack",,,30.0,Days,12.0,Months
+167,22,"Fish (cold smoked, vacuum pack)","Fish,cold smoked,vacuum pack,cold,smoked,vacuum,pack",,,30.0,Days,12.0,Months
+168,24,Tofu,Tofu,,,1.0,Weeks,5.0,Months
+169,24,Miso,Miso,,,1.0,Years,,
+170,24,Soy flour (full-fat),"Soy flour,full fat,soy,flour,fat",2.0,Months,6.0,Months,,
+171,24,Textured soy protein ((TSP)),"Textured soy protein,protein,TSP,soy protein,soy",2.0,Years,,,,
+172,24,Re-hydrated textured soy protein ((TSP)),"Re hydrated textured soy protein,protein,TSP,soy,soy protein,textured soy protein,Re hydrated ",4.0,Months,4.0,Days,,
+173,25,"Leftovers (with meat, fish, poultry, or egg)","Leftovers,meat,fish,poultry,egg,leftover",,,4.0,Days,3.0,Months
+174,25,"Leftovers (without meat, fish, poultry, or egg (such as cooked vegitables, rice, or potatoes))","leftover,leftovers,without meat,fish,poultry,egg,cooked vegetables,rice,potatoes,meat,vegetables,potato,vegetable",,,4.0,Days,2.0,Months
+175,25,Leftovers (pizza),"Leftovers,pizza",,,4.0,Days,2.0,Months
+176,25,Commercial brand vacuum-packed dinners (with USDA seal),"Commercial brand vacuum-packed dinners,brand vacuum packed dinners,USDA seal,USDA,seal,dinners,dinner,vacuum packed,vacuum packed dinner,packed dinner,packed",,,2.0,Weeks,,
+177,25,Cooked pasta,"Cooked pasta,pasta",,,5.0,Days,2.0,Months
+178,25,Cooked rice,"Cooked rice,rice",,,6.0,Days,6.0,Months
+179,25,"Fruit, cut","Fruit,cut",,,,,,
+180,25,Guacamole,Guacamole,,,4.0,Days,4.0,Months
+181,25,"Hummus (commercial (pasteurized, with preservatives))","Hummus,commercial,pasteurized,preservatives,preservative",,,3.0,Months,,
+183,25,"Hummus (traditional (no preservatives, not pasteurized))","Hummus,traditional,no preservatives,not pasteurized,no preservative,preservatives,preservative,pasteurized",,,7.0,Days,,
+184,25,Luncheon meat or poultry (store-sliced),"Luncheon meat,poultry,store sliced,meat,luncheon,store,sliced",,,5.0,Days,2.0,Months
+185,25,Main dishes or meals (hot or refrigerated),"Main dishes,meals,hot,refrigerated,dishes,dish,meal",,,4.0,Days,3.0,Months
+186,25,Meats (covered with gravy or broth),"Meats,gravy,broth,meat",,,4.0,Days,6.0,Months
+187,25,Olives (from olive bar),"Olives,bar,olive",,,2.0,Weeks,,
+188,25,Pate,Pate,,,2.0,Days,2.0,Months
+192,25,Luncheon meat or poultry (pre-packaged),"Luncheon meat,luncheon,meat,poultry,packaged,pre packaged",,,2.0,Weeks,2.0,Months
+193,25,"Soup, stews","Soup,stews,stew",,,4.0,Days,3.0,Months
+194,25,Casseroles,"Casseroles,Casserole",,,4.0,Days,,
+195,2,"Commercial bread products (including pan breads, flat breads, rolls, and buns)","Commercial bread products,pan breads,flat breads,rolls,buns,bread products,bread,products,product,pan,breads,bread,flat,roll,bun",18.0,Days,,,5.0,Months
+196,9,Tortillas (flour),"Tortillas,Tortilla",3.0,Months,,,6.0,Months
+197,2,Commercial cakes and muffins,"Commercial cakes,cake,muffin,muffins",7.0,Days,,,6.0,Months
+198,2,Cheesecake,"Cheesecake,cake,cheese",,,,,6.0,Months
+199,2,Cookies (soft),"Cookies,soft,cookie",3.0,Months,,,12.0,Months
+200,2,Cookies (crispy),"Cookies,crispy,cookie",6.0,Months,,,12.0,Months
+201,2,Dairy filled eclairs,"Dairy filled eclairs,dairy filled,eclairs,éclair,dairy",,,,,3.0,Months
+202,2,Doughnuts,"Doughnuts,doughnut,dough,nut",2.0,Days,,,,
+203,2,Fruit cake,"Fruit cake,fruit,cake",6.0,Months,,,12.0,Months
+204,2,"Pastries, danish","Pastries,danish,pastry",10.0,Days,,,,
+205,2,"Cream pies (banana cream, coconut cream, butterscotch)","Pies,cream,pie, banana, banana cream,coconut,coconut cream,butterscotch",,,,,,
+206,2,"Chiffon pies (chocolate, lemon)","Pies,chiffon,pie,chocolate,lemon,chocolate pie,lemon pie",,,,,,
+207,2,"Fruit pies (apple, peach, blueberry, apricot, cherry, blackberry)","Pies,fruit,pie,apple,apple pie,peach,peach pie,blueberry,blueberry pie,cherry,cherry pie,apricot,apricot pie,blackberry,blackberry pie",2.0,Days,,,8.0,Months
+208,2,Pies (mincemeat),"Pies,mincemeat,pie,meat,mince",2.0,Hours,,,8.0,Months
+209,2,Pies (pecan),"Pies,Pie,pecan",2.0,Hours,,,2.0,Months
+210,2,Pies (pumpkin),"Pies,Pie,pumpkin",2.0,Hours,,,2.0,Months
+211,2,Quiche,Quiche,2.0,Hours,,,3.0,Months
+212,3,Baking powder,"Baking powder,baking,powder",18.0,Months,,,,
+213,3,Baking soda,"Baking soda,soda,baking",3.0,Years,,,,
+214,3,Biscuit or pancake mix,"Biscuit,pancake mix,pancake,mix,cake",9.0,Months,,,,
+215,3,"Cake, brownie, bread mixes","Cake,brownie,bread mixes,bread,mixes,mix",18.0,Months,,,,
+216,3,"Chocolate (unsweetened and semi-sweet, solid)","Chocolate,unsweetened,semi sweet,solid,sweet",2.0,Years,,,,
+217,3,Cocoa and cocoa mixes,"Cocoa,cocoa mixes,mixes,mix",,,,,,
+218,3,"Cornmeal (regular, degerminated)","Cornmeal,regular,degerminated,germinated,germinate,corn,meal",12.0,Months,,,,
+219,3,Cornmeal (stone ground or blue),"Cornmeal,stone ground,blue,ground,stone,corn,meal",1.0,Months,,,,
+220,3,Cornstarch,"Cornstarch,corn,starch",24.0,Months,,,,
+222,3,Flour (white),"Flour,white",12.0,Months,,,,
+223,3,Flour (whole wheat),"Flour,whole wheat,wheat",6.0,Months,,,,
+224,3,Frosting or icing,"Frosting,icing,frost,ice",12.0,Months,,,,
+225,3,Gelatin (flavored),"Gelatin,flavor,flavored",12.0,Months,,,,
+226,3,Gelatin (unflavored),"Gelatin,unflavor,unflavored",3.0,Years,,,,
+227,3,Oils (olive or vegetable),"Oils,olive,vegetable,oil",12.0,Months,,,,
+228,3,Nut oils,"Nut oils,nut,oils,oil",12.0,Months,,,,
+229,3,Vegetable oil sprays,"Vegetable oil sprays,sprays,oil,vegetable,vegetable oil",2.0,Years,,,,
+230,3,Shortening (solid),"Shortening,solid",2.0,Years,,,,
+231,3,Tamarind paste,"Tamarind paste,paste,tamarind",12.0,Months,,,,
+232,3,Chili powder,"Chili powder,powder,chili",2.0,Years,,,,
+233,3,Seasoning blends,"Seasoning blends,blends,seasoning,blend",2.0,Years,,,,
+234,3,Flavored or herb mixes,"Flavored,herb mixes,herb,flavor,mixes,mix",6.0,Months,,,,
+235,3,"Garlic (chopped, commercial jars)","Garlic,chopped,jars,commercial jars,jar",12.0,Months,,,,
+236,3,Herbs (dried),"Herbs,dried,herb",2.0,Years,,,,
+237,3,Spice/spices (whole),"Spice,spices,whole",4.0,Years,,,,
+238,3,Spice/spices (ground),"Spice,spices,ground",3.0,Years,,,,
+239,3,Sugar (brown),"Sugar,brown",,,,,,
+240,3,Sugar (granulated),"Sugar,granulated",,,,,,
+241,3,Sugar (confectioners),"Sugar,confectioners,confectioner",,,,,,
+242,3,Sugar substitutes,"Sugar substitutes,sugar,substitutes,substitute",2.0,Years,,,,
+243,3,Tapiocas,"Tapiocas,Tapioca",12.0,Months,,,,
+245,4,"Tube cans (of biscuits, rolls, pizza dough, etc.)","Tube cans,biscuits,biscuit,rolls,roll,pizza,pizza dough,dough,tube can,can,tube",,,,,,
+246,4,Ready-to-bake pie crust,"Ready to bake pie crust,pie,crust,bake,ready",,,,,2.0,Months
+247,4,Cookie dough,"Cookie dough,cookie,dough",,,,,2.0,Months
+248,18,Apples,"Apples,apple",3.0,Weeks,6.0,Weeks,8.0,Months
+249,18,Apricots,"Apricots,Apricot",,,5.0,Days,,
+250,18,Avocados,"Avocados,Avocado",,,4.0,Days,,
+251,18,Bananas,"Bananas,banana",,,3.0,Days,3.0,Months
+252,18,"Berries (cherries, goose berries, lychee)","Berries,berry,cherries,cherry,goose berries,goose berry,lychee,gooseberries",,,7.0,Days,12.0,Months
+253,18,"Berries (blackberries, boysenberries, currant)","Berries,berry,blackberries,blackberry,boysenberries,boysenberry,currant",,,6.0,Days,12.0,Months
+254,18,Blueberries,"Blueberries,blueberry,berries,berry",,,2.0,Weeks,12.0,Months
+255,18,Cherimoya,Cherimoya,,,4.0,Days,12.0,Months
+256,18,"Citrus fruit (lemon, lime, orange, grapefruit, tangerines, clementines)","Citrus fruit,fruit,citrus,lemon,lime,orange,grape,grapefruit,tangerines,tangerine,clementines,clementine",10.0,Days,21.0,Days,,
+257,18,Coconut (shredded),"Coconut,shredded",1.0,Years,,,1.0,Years
+258,18,Coconuts (fresh),"Coconuts,Coconut,fresh",1.0,Weeks,3.0,Weeks,,
+259,18,Cranberries,"Cranberries,cranberry",,,2.0,Months,12.0,Months
+260,18,Dates,Dates,2.0,Months,12.0,Months,2.0,Years
+261,18,Grapes,"Grapes,grape",1.0,Days,1.0,Weeks,1.0,Months
+262,18,Guava,Guava,,,4.0,Days,,
+263,18,Kiwi fruit,"Kiwi fruit,kiwi,fruit",,,6.0,Days,,
+264,18,Melons,"Melons,melon",,,2.0,Weeks,1.0,Months
+265,18,"Papaya, mango, feijoa, passionfruit, casaha melon","Papaya,mango,feijoa,passionfruit,casaha melon,melon,fruit,passion",5.0,Days,1.0,Weeks,8.0,Months
+266,18,"Peaches, nectarines, plums, pears, sapote","Peaches,nectarines,plums,pears,sapote,peach,nectarine,plum,pear",,,5.0,Days,2.0,Months
+267,18,Pineapple,Pineapple,,,7.0,Days,12.0,Months
+268,18,Plantains,"Plantains,plantain",,,5.0,Days,12.0,Months
+269,18,Pomegranate,Pomegranate,5.0,Days,3.0,Months,12.0,Months
+270,19,"Artichokes, whole","Artichokes,artichoke,whole",2.0,Days,2.0,Weeks,,
+271,19,Asparagus,Asparagus,,,4.0,Days,5.0,Months
+272,19,Bamboo shoots,"Bamboo shoots,bamboo,shoots,shoot",,,2.0,Weeks,,
+273,19,"Beans and peas (green, fava, lima, soybean, wax, snow, sugar snap)","Beans,peas,green,fava,lima,soybean,wax,snow,sugar snap,sugar,pea,soya",,,5.0,Days,8.0,Months
+274,19,Beets,Beets,1.0,Days,2.0,Weeks,8.0,Months
+275,19,Bok choy,Bok choy,,,3.0,Days,12.0,Months
+276,19,Broccoli and broccoli raab (rapini),"Broccoli,broccoli raab,rapini,raab",,,5.0,Days,12.0,Months
+277,19,Brussels sprouts,"Brussels sprouts,brussels,sprouts,sprout,brussel",,,5.0,Days,12.0,Months
+278,19,Cabbage,Cabbage,,,2.0,Weeks,12.0,Months
+279,19,"Carrots, parsnips","Carrots,parsnips,carrot,parsnip",,,3.0,Weeks,12.0,Months
+280,19,Cauliflower,Cauliflower,,,5.0,Days,12.0,Months
+281,19,Celery,Celery,,,2.0,Weeks,12.0,Months
+282,19,Corn on the cob,"Corn,cob",,,2.0,Days,8.0,Months
+283,19,Cucumbers,"Cucumbers,cucumber",,,6.0,Days,,
+284,19,Eggplant,"Eggplant,egg",1.0,Days,7.0,Days,8.0,Months
+285,19,Garlic,Garlic,1.0,Months,14.0,Days,1.0,Months
+286,19,Ginger root,"Ginger root,ginger,root",5.0,Days,3.0,Weeks,6.0,Months
+287,19,Greens,"Greens,green",,,4.0,Days,12.0,Months
+288,19,Herbs,"Herbs,herb",,,10.0,Days,2.0,Months
+289,19,Leeks,"Leeks,leek",,,2.0,Weeks,12.0,Months
+290,19,"Lettuce (iceberg, romaine)","Lettuce,iceberg,romaine",,,2.0,Weeks,,
+291,19,"Lettuce (leaf, spinach)","Lettuce,leaf,spinach",,,7.0,Days,,
+292,19,Mushrooms,"Mushroom,mushrooms",,,7.0,Days,12.0,Months
+293,19,Okra,Okra,1.0,Days,3.0,Days,12.0,Months
+294,19,"Onions (yellow, white, red, etc.)","Onions,yellow,white,red,onion",1.0,Months,2.0,Months,12.0,Months
+295,19,Onions (spring or green),"Onions,spring,green,onion",1.0,Months,1.0,Weeks,12.0,Months
+296,19,Peppers,"Peppers,pepper",,,14.0,Days,8.0,Months
+297,19,Potatoes,"Potatoes,potato",2.0,Months,2.0,Weeks,12.0,Months
+298,19,Pumpkins,"Pumpkins,pumpkin",3.0,Months,5.0,Months,,
+299,19,Radishes,"Radishes,radish",,,14.0,Days,,
+300,19,Rhubarb,Rhubarb,,,7.0,Days,,
+301,19,Rutabagas,Rutabagas,1.0,Weeks,3.0,Weeks,10.0,Months
+302,19,Squash (summer and zucchini),"Squash,summer,zucchini",5.0,Days,5.0,Days,12.0,Months
+303,19,Squash (winter),"Squash,winter",6.0,Weeks,3.0,Months,12.0,Months
+304,19,Tamarind,Tamarind,3.0,Weeks,6.0,Months,1.0,Years
+305,19,Taro,Taro,7.0,Days,3.0,Days,,
+306,19,Tomatoes,"Tomatoes,tomato",,,,,2.0,Months
+307,19,Turnips,"Turnips,turnip",,,2.0,Weeks,10.0,Months
+308,19,Yuca/cassava,"Yuca,cassava",7.0,Days,3.0,Days,2.0,Months
+309,8,Dough (commercial (bread or cookie)),"Dough,commercial,bread,cookie",,,4.0,Days,12.0,Months
+310,8,Egg substitutes,"Egg substitutes,egg,substitute,Egg substitute",,,4.0,Days,12.0,Months
+311,8,Fish (breaded),"Fish,breaded,bread",,,,,18.0,Months
+312,8,Fish (raw but headed and gutted),"Fish,raw,headed,gutted",,,4.0,Days,6.0,Months
+313,8,"Frozen potato products (fries, hashbrowns, tater tots)","Frozen potato products,fries,hashbrowns,tater tots,potato products,products,product,frozen potato,hashbrown,tater tot",,,,,12.0,Months
+314,8,Frozen pretzels,"Frozen pretzels,frozen,pretzels,pretzel",,,4.0,Days,9.0,Months
+315,8,"Fruits (such as berries, melons)","Fruits,berries,melons,berry,melon",,,,,18.0,Months
+317,8,Ice cream,"Ice cream,ice,cream",,,,,6.0,Months
+318,8,Ice pops,"Ice pops,ice,pops,pop",,,,,9.0,Months
+319,8,Juice concentrates,"Juice concentrates,juice,concentrate",,,,,2.0,Years
+320,8,Lobster tails,"Lobster tails,tail,lobster,Lobster tail",,,4.0,Days,8.0,Months
+321,8,"Pancakes, waffles","Pancakes,waffles,pancake",,,,,3.0,Months
+322,8,Sausages (uncooked),"Sausages,Sausage,uncooked,cooked",,,4.0,Days,2.0,Months
+323,8,Sausages (precooked),"Sausages,Sausage,precooked,cooked",,,4.0,Days,2.0,Months
+324,8,"Sherbet, sorbet","Sherbet,sorbet",,,,,9.0,Months
+325,8,"Shrimp, shellfish","Shrimp,shellfish,fish",,,4.0,Days,18.0,Months
+326,8,Soy crumbles and hot dogs,"Soy crumbles,hot dogs,hot dog,soy,soy crumble",,,4.0,Days,2.0,Months
+327,8,Soy meat substitutes,"Soy meat substitutes,soy,meat,soy meat,meat substitutes,substitutes,substitute",,,4.0,Days,18.0,Months
+328,8,Tempeh,Tempeh,,,4.0,Days,6.0,Months
+330,8,Frozen entrees (prepared meals),"TV dinners,entrees,breakfast,dinners,dinner,entry,TV",,,,,12.0,Months
+331,8,Vegetables,"Vegetables,vegetable",,,4.0,Days,18.0,Months
+332,9,Fresh pasta,"Fresh pasta,pasta",,,2.0,Days,2.0,Months
+333,9,Beans (dried),"Beans,dried",2.0,Years,,,,
+334,9,Lentils (dried),"Lentils,dried",1.0,Years,,,,
+335,9,"Pasta (dry, without eggs)","Pasta,dry,eggs,egg,without egg,without eggs",2.0,Years,,,,
+336,9,Dry egg noodles,"Dry egg noodles,egg noodles,egg,noodles,noodle,dry",2.0,Years,,,,
+337,9,Peas (dried split),"Peas,Pea,dried split,split",1.0,Years,,,,
+338,9,Rice (white or wild),"Rice,white,wild",2.0,Years,,,,
+339,9,Rice (brown),"Rice,brown",1.0,Years,,,,
+340,6,Barbecue sauce (bottled),"Barbecue sauce,sauce,bottled,Barbecue",1.0,Years,,,,
+341,6,Chutney,Chutney,1.0,Years,,,,
+342,6,"Cream sauces, milk solids","Cream sauces,milk solids,sauce,solids,cream,sauces,milk,solid",12.0,Months,,,,
+343,6,Dry gravy mixes,"Dry gravy mixes,gravy,mixes,mix,dry",2.0,Years,2.0,Days,,
+344,6,Gravy (jars and cans),"Gravy,jars,cans,jar,can",5.0,Years,,,,
+345,6,Honey,Honey,2.0,Years,,,,
+346,6,Horseradish (in jar),"Horseradish,jar",,,12.0,Months,,
+347,6,"Jams, jellies, and preserves","Jams,jellies,preserves,jam,jelly,preserve",18.0,Months,,,,
+348,6,"Ketchup, cocktail, or chili sauce","Ketchup,cocktail,chili sauce,sauce,chili",1.0,Years,,,,
+349,6,Marinades,"Marinades,marinade",1.0,Years,,,,
+350,6,Mayonnaise (commercial),"Mayonnaise,commercial",6.0,Months,,,,
+351,6,Mustard,Mustard,2.0,Years,,,,
+352,6,Olives (black and green),"Olives,black,green,olive",18.0,Months,,,,
+353,6,Pickles,"Pickles,pickle",1.0,Years,,,,
+354,6,Pesto (jarred),"Pesto,jarred,jar",,,6.0,Months,1.0,Months
+356,6,"Salad dressings (commercial, bottled)","Salad dressings,dressings,dressing,commercial,bottled,bottle,salad",12.0,Months,,,,
+357,6,Salsa (picante and taco sauces),"Salsa,picante,taco sauces,taco,sauces,sauce",1.0,Years,,,,
+358,6,"Sauce mixes (nondairy (spaghetti, taco, etc.))","Sauce mixes,sauce,mixes,mix,nondairy,dairy,spaghetti,taco",2.0,Years,,,,
+359,6,Spaghetti sauce (in jars),"Spaghetti sauce,sauce,in jars,jars,jar,spaghetti",18.0,Months,,,,
+360,6,Soy sauce or teriyaki sauce,"Soy sauce,teriyaki sauce,sauce,soy,teriyaki",3.0,Years,,,,
+361,6,Vinegar,Vinegar,2.0,Years,,,,
+362,6,Worcestershire sauce,"Worcestershire sauce,Worcestershire,sauce",1.0,Years,,,,
+363,1,Jars or pouches,"Jars,pouches,jar,pouch",,,,,,
+364,1,Fruit,Fruit,,,,,,
+365,1,Vegetables,"Vegetables,vegetable",,,,,,
+366,1,Dinners,"Dinners,dinner",,,,,,
+367,1,"Cereal, dry mixes","Cereal,dry mixes,mixes,mix,dry",,,,,,
+368,1,Formula (prepared),"Formula,prepared,prepare",,,,,,
+369,1,Liquid concentrate or ready-to-feed formula,"Liquid concentrate,ready to feed formula,concentrate,liquid,formula,feed,ready to feed,feed formula",,,,,,
+370,23,Applesauce (commercial),"Applesauce,Apple,sauce,commercial",18.0,Months,,,,
+371,23,Bacon bits (imitation),"Bacon bits,bits,imitation,bacon,bit",1.0,Years,,,,
+372,23,"Canned goods (low acid (such as meat, poultry, fish, gravy, stew, soups, beans, carrots, corn, pasta, peas, potatoes, spinach))","Canned goods,canned,can,goods,low acid,low,meat,poultry,fish,gravy,stew,soups,soup,beans,bean,carrots,carrot,corn,pasta,peas,pea,potatoes,potato,spinach",5.0,Years,,,,
+373,23,"Canned goods (high acid (such as juices, fruit, pickles, sauerkraut, tomato soup, and foods in vinegar-based sauce))","Canned goods,canned,can,goods,high acid,high,juices,juice,fruit,fruits,pickles,pickle,sauerkraut,tomato soup,soup,tomato,foods in vinegar based sauce,sauce,foods,food,vinegar based,vinegar",18.0,Months,,,,
+374,23,Cereal (ready-to-eat),"Cereal,ready,eat",12.0,Months,,,,
+375,23,"Cereal (cook before eating (oatmeal, etc.))","Cereal,cook before eating,oatmeal,oats,oat,meal",12.0,Months,,,,
+376,23,Chocolate syrup,"Chocolate syrup,Chocolate,syrup",2.0,Years,,,,
+377,23,Crackers,"Crackers,cracker",8.0,Months,,,4.0,Months
+378,23,Graham cracker/animal cracker,"Graham cracker,animal cracker,Graham,cracker,animal",9.0,Months,,,,
+379,23,"Fruits, dried (raisins, apricots, mangoes, cranberries, etc.)","Fruits,fruit,dried,raisins,raisin,apricots,apricot,mangoes,mangoe,cranberries,cranberry",6.0,Months,,,,
+380,23,Gummy (fruit) snacks,"fruit snack,gummy,fruit,snacks,snack,gummy snacks,fruit snacks,gummy snack",9.0,Months,,,,
+381,23,Marshmallows,"Marshmallows,Marshmallow",1.0,Years,,,,
+382,23,Marshmallow crème,"Marshmallow crème,Marshmallow,crème",5.0,Months,,,,
+383,23,Milk (canned evaporated or condensed),"Milk,can,canned,evaporated,condensed,evaporate,condense",12.0,Months,,,,
+384,23,Molasses,Molasses,2.0,Years,,,,
+385,23,Mushrooms (dried),"Mushrooms,Mushroom,dried",2.0,Years,,,,
+386,23,Nuts (jars or cans),"Nuts,nut,jar,jars,cans,can",1.0,Years,,,12.0,Months
+387,23,Peanut butter (commercial),"Peanut butter,butter,commercial,peanut",24.0,Months,,,,
+388,23,Pectin,Pectin,,,,,,
+389,23,Popcorn (dry kernels in jar),"Popcorn,dry kernels in jar,jar,dry kernels,kernels,in jar,kernel,chips,chip",2.0,Years,,,,
+390,23,Popcorn (commercially popped in bags),"Popcorn,commercially,popped in bags,bags,bag,in bags",3.0,Months,,,,
+391,23,Popcorn (microwave packets),"Popcorn,microwave packets,packets,microwave,packet",12.0,Months,,,,
+392,23,Potato chips,"Potato chips,potato,chips,chip,potatoes",2.0,Months,,,,
+393,23,Potatoes (instant),"Potatoes,Potato,instant",15.0,Months,,,,
+394,23,Pretzels,"Pretzels,Pretzel",9.0,Months,,,,
+395,23,Pudding mixes,"Pudding mixes,Pudding,mixes,mix",1.0,Years,,,,
+396,23,Soup mixes (dry bouillon),"Soup mixes,mixes,mix,soup,dry bouillon,bouillon",1.0,Years,,,,
+397,23,Sun dried tomatoes (jar),"Sun dried tomatoes,dried tomatoes,sun,sun dried,dried,tomatoes,tomato",1.0,Years,,,,
+398,23,Syrup,Syrup,1.0,Years,,,,
+399,23,Toaster pastries,"Toaster pastries,pastry,Toaster,pastries",12.0,Months,,,,
+400,5,Coffee (whole beans),"Coffee,whole beans,beans,whole,bean",5.0,Months,,,,
+401,5,"Coffee (home ground, non-vacuum)","Coffee,home ground,non vacuum,ground,home,vacuum",5.0,Months,,,2.0,Years
+402,5,Coffee (instant),"Coffee,instant",1.0,Years,,,,
+403,5,Diet powder mixes and drink mixes,"Diet powder mixes,drink mixes,mixes,drink,powder mixes,diet powder,mix",24.0,Months,,,,
+404,5,"Fruit Juice in cartons, fruit drinks, punch","Fruit Juice in cartons,fruit drinks,punch,fruit,fruit juice,juice in cartons,cartons,carton,drinks,drink",3.0,Weeks,,,,
+405,5,"Juice, boxes","Juice, boxes,box",,,,,,
+406,5,"Nectar (papaya, mango, guava, or guavabana)","Nectar,papaya,mango,guava,guavabana,mangoes",18.0,Months,,,,
+407,5,"Soda (carbonated cola drinks, mixers, diet sodas; bottles or cans)","Soda,carbonated cola drinks,mixers,diet sodas,bottles,cans,cola drinks,drinks,drink,cola,carbonated,carbonated cola,mixer,diet,sodas,bottle,can",,,,,,
+408,5,Soy or rice beverage,"Soy,rice beverage,rice,beverage",,,,,,
+410,5,Tea (bags),"Tea,bags,bag",36.0,Months,,,,
+411,5,Tea (instant),"Tea,instant",3.0,Years,,,,
+412,5,Tea (loose),"Tea,loose",2.0,Years,,,,
+413,5,Water (commercially bottled),"Water,commercially bottled,bottled,commercially,bottle,commercial",,,,,,
+414,18,Kumquats,Kumquats,,,3.0,Weeks,,
+415,19,"Bagged greens (leaf, spinach, lettuce, etc.)","Bagged greens,leaf,spinach,lettuce,bagged,greens,green",,,5.0,Days,,
+416,6,Tahini,Tahini,1.0,Years,,,,
+190,25,Egg salad,"Egg salad,egg,salad",,,4.0,Days,,
+191,25,Potato salad,"Potato salad,potato,salad",,,5.0,Days,,
+417,25,"Seafood salads ((tuna salad, shrimp salad, salmon salad, mixed seafood salad, etc.))","Seafood salads,tuna salad, shrimp salad, salmon salad, mixed seafood salad,seafood,salads,salad,tuna,shrimp,salmon,mixed,mixed seafood,seafood salad,",,,4.0,Days,,
+418,25,Chicken salad,"Chicken salad,chicken,salad",,,4.0,Days,,
+419,25,Ham salad,"Ham salad,ham,salad",,,4.0,Days,,
+420,25,Pasta salad,"Pasta salad,pasta,salad",,,5.0,Days,,
+421,7,Soy milk,"Soy milk,soy,milk",,,,,,
+422,19,Yams/sweet potatoes,"Yams,sweet potatoes,potatoes,potato,yam",3.0,Weeks,,,,
+423,19,Kale,Kale,,,5.0,Days,12.0,Months
+425,9,Quinoa (uncooked),"Quinoa,cooked,uncooked,cook",3.0,Years,,,,
+426,9,Quinoa (cooked),"Quinoa,cook,cooked",,,7.0,Days,12.0,Months
+427,7,Almond milk,"Almond milk,milk,almond",,,,,,
+428,7,Rice milk,"Rice milk,rice,milk",,,,,,
+429,7,Coconut milk,"Coconut milk,coconut,milk",,,,,,
+430,7,Coffee creamer (powdered),"Coffee creamer,creamer,cream,coffee,powdered,powder",2.0,Years,,,,
+431,14,Turkey bacon,"Turkey bacon,turkey,bacon",,,2.0,Weeks,4.0,Months
+432,23,Fruit cocktail (canned ),"Fruit cocktail,cocktail,fruit,canned,can",18.0,Months,,,,
+433,6,Black bean sauce,"Black bean sauce,sauce,bean,black,black bean,bean sauce",24.0,Months,,,,
+434,6,Oyster sauce,"Oyster sauce,oyster,sauce",24.0,Months,,,,
+435,6,Hoisin sauce,"Hoisin sauce,sauce,Hoisin",24.0,Months,,,,
+436,12,Pork roll,"Pork roll,Pork,roll",,,,,,
+437,23,Almonds  (shell),"Almonds,Almond,shell",6.0,Months,16.0,Months,20.0,Months
+438,23,Almonds  (no shell),"Almonds,Almond,no shell,shell",4.0,Months,8.0,Months,10.0,Months
+439,23,Cashews (no shell),"Cashews,Cashew,no shell,shell",4.0,Weeks,6.0,Months,12.0,Months
+440,23,Macadamias (no shell),"Macadamias,Macadamia,no shell,shell",4.0,Weeks,12.0,Months,24.0,Months
+441,23,Peanuts (shell),"Peanuts,Peanut,shell,nut",4.0,Months,12.0,Months,24.0,Months
+442,23,Peanuts (no shell),"Peanuts,Peanut,no shell,shell,nut",4.0,Weeks,12.0,Months,24.0,Months
+443,23,Pecans (shell),"Pecans,Pecan,shell",4.0,Weeks,12.0,Months,24.0,Months
+444,23,Pecans (no shell),"Pecans,Pecan,no shell,shell",4.0,Weeks,9.0,Months,24.0,Months
+445,23,Pistachios (shell or no shell),"Pistachios,shell,no shell,Pistachio,pista",3.0,Weeks,12.0,Months,24.0,Months
+446,23,Walnuts (shell or no shell),"Walnuts,shell,no shell,walnut",4.0,Weeks,12.0,Months,24.0,Months
+447,5,Lime juice,"Lime juice,lime,juice",18.0,Months,,,,
+448,5,Lemon juice,"Lemon juice,lemon,juice",18.0,Months,,,,
+449,2,Bagel (fresh baked),"Bagel,fresh baked,baked",2.0,Days,,,3.0,Months
+450,2,Bagel  (commercially frozen),"Bagel,commercially frozen,frozen",,,,,3.0,Months
+451,2,"Muffin (homemade - including bran, blueberry, banana, corn, chocolate chip)","Muffin,homemade including bran,homemade,bran,blueberry,banana,corn,chocolate chip,including bran,chocolate,chip",7.0,Days,,,3.0,Months
+452,2,Muffin (commercially packaged),"Muffin,commercially packaged,packaged",7.0,Days,,,3.0,Months
+453,2,"Muffin (mix, dry, commercially packaged)","Muffin,mix,dry,commercially packaged,packaged,commercially,commercial",9.0,Months,,,,
+454,23,Coconut oil,"Coconut oil,coconut,oil",3.0,Years,,,,
+455,5,Orange juice (commercially packaged carton),"Orange juice,commercially packaged carton,orange,juice,commercially,packaged,carton,packaged carton,commercially packaged,commercial",,,,,12.0,Months
+456,5,Orange juice (commercially frozen concentrate),"Orange juice,commercially frozen concentrate,orange,juice,commercially,frozen,concentrate,commercially frozen,frozen concentrate",,,,,12.0,Months
+457,5,Orange juice (freshly squeezed),"Orange juice,orange,juice,freshly squeezed,squeezed,freshly,fresh,sqeeze",,,3.0,Days,3.0,Weeks
+458,23,Roasted red peppers (jar),"Roasted red peppers,roasted,red,peppers,jar,Roasted red,red peppers,pepper",,,6.0,Months,,
+459,3,Whole wheat flour,"Whole wheat flour,Whole,wheat,flour,wheat flour,whole wheat",12.0,Months,2.0,Years,2.0,Years
+460,9,Whole wheat bread (homemade),"Whole wheat bread,Whole,wheat,bread,homemade,whole wheat,wheat bread",5.0,Days,,,3.0,Months
+461,9,Whole wheat bread (commercially baked & pre-sliced),"Whole wheat flour,Whole,wheat,flour,wheat flour,whole wheat,commercially baked,pre sliced,sliced,slice,baked,commercially,commercial",5.0,Days,,,3.0,Months
+462,5,Red wine,"Red wine,red,wine",5.0,Years,,,,
+463,5,White wine,"White wine,white,wine",2.0,Years,,,,
+464,23,Dry stuffing mix (commercially packaged),"Dry stuffing mix,Dry stuffing,stuffing mix,Dry,stuffing,mix,commercially packaged,packaged,commercially,commercial,pack",12.0,Months,,,,
+465,7,Powdered milk,"Powdered milk,Powdered,milk,powder",5.0,Years,,,,
+466,23,Almond butter,"Almond butter,Almond,butter",1.0,Years,,,,
+467,23,Cashew butter,"Cashew butter,Cashew,butter",3.0,Months,,,,
+468,23,"Salt (table, plain, or iodized)","Salt,table,plain,iodized",,,,,,
+469,23,"Black pepper (ground, dried, commercially bottled or purchased in bulk)","Black pepper,black,pepper,ground,dried,commercially bottled,commercially,bottled,bottle,commercial,purchased in bulk,bulk,purchased,purchase",2.0,Years,,,,
+470,23,"Black pepper (cracked, dried, commercially bottled or purchased in bulk)","Black pepper,black,pepper,crack,cracked,dried,commercially bottled,commercially,bottled,bottle,commercial,purchased in bulk,bulk,purchased,purchase",3.0,Years,,,,
+471,23,"Cajun seasoning blend  (ground, dried, commercially bottled or purchased in bulk)","Cajun seasoning blend,Cajun,seasoning,blend,Cajun seasoning,seasoning blend,ground,dried,commercially bottled,commercially,bottled,bottle,commercial,purchased in bulk,bulk,purchased,purchase",2.0,Years,,,,
+472,23,"Cinnamon (ground, dried, commercially bottled or purchased in bulk)","Cinnamon,ground,dried,commercially bottled,commercially,bottled,bottle,commercial,purchased in bulk,bulk,purchased,purchase",4.0,Years,,,,
+473,23,"Cumin (ground, dried, commercially bottled or purchased in bulk, opened or unopened)","Cumin,ground,dried,commercially bottled,commercially,bottled,bottle,commercial,purchased in bulk,bulk,purchased,purchase,opened,unopened,open,unopen",4.0,Years,,,,
+474,23,"Garlic powder (dried, commercially bottled or purchased in bulk)","Garlic powder,garlic,powder,dried,commercially bottled,commercially,bottled,bottle,commercial,purchased in bulk,bulk,purchased,purchase",4.0,Years,,,,
+475,23,"Onion powder  (dried, commercially bottled or purchased in bulk)","Onion powder,onion,powder,dried,commercially bottled,commercially,bottled,bottle,commercial,purchased in bulk,bulk,purchased,purchase",4.0,Years,,,,
+476,23,"Nutmeg (ground, dried, commercially bottled or purchased in bulk)","Nutmeg,ground,dried,commercially bottled,commercially,bottled,bottle,commercial,purchased in bulk,bulk,purchased,purchase",4.0,Years,,,,
+477,7,Nacho cheese  (store bought),"Nacho cheese,nacho,cheese,store bought,store",2.0,Years,,,3.0,Months
+478,18,Star fruit,"Star fruit,fruit,fruits",1.0,Weeks,2.0,Weeks,12.0,Months
+479,18,Prickly pear ,"Prickly pear,pear,pickle",5.0,Days,2.0,Weeks,12.0,Months
+480,18,Pitaya/dragon fruit,"Pitaya,dragon fruit,fruit,fruits",5.0,Days,3.0,Weeks,12.0,Months
+481,18,Strawberries,"Strawberries,strawberry",,,3.0,Days,12.0,Months
+482,18,Raspberries,"Raspberries,raspberry",,,3.0,Days,12.0,Months
+483,18,Cherries,"Cherries,cherry",,,3.0,Days,12.0,Months
+484,6,Broth (homemade),"Broth,homemade",,,4.0,Days,3.0,Months
+485,6,Beef broth/stock/consommé  (commercially produced),"Beef broth, beef stock,beef consommé,consommé,commercially produced",,,7.0,Days,3.0,Months
+486,6,Chicken broth/stock/consommé  (commercially produced),"Chicken broth,chicken stock,consommé,commercially produced",,,7.0,Days,3.0,Months
+487,6,Vegetable stock/broth  (commercially produced),"Vegetable stock,Vegetable broth,broth,commercial vegetable stock,commercial vegetable broth,vegetable",,,7.0,Days,3.0,Months
+488,23,"Peanut butter (commercially produced, containing hydrogenated fat or other stabilizers)","Peanut butter,butter,commercial peanut butter, hydrogenated fat,fat,stabilizers,stabilizer",9.0,Months,12.0,Months,,
+489,23,Peanut butter (natural),"Peanut butter,butter,natural",,,12.0,Months,,
+490,7,Ricotta,Ricotta,,,2.0,Weeks,,
+491,19,Baby carrots,"Baby carrots, carrot,baby carrot",4.0,Days,4.0,Weeks,3.0,Months
+492,19,Jicama (fresh),"Jicama,fresh",4.0,Months,3.0,Weeks,,
+493,19,Kimchi,Kimchi,,,12.0,Months,,
+494,19,Kohlrabi,Kohlrabi,,,1.0,Weeks,12.0,Months
+495,18,Watermelon,Watermelon,2.0,Days,4.0,Days,12.0,Months
+496,18,Cantaloupe,Cantaloupe,4.0,Days,15.0,Days,12.0,Months
+497,18,Honeydew,Honeydew,7.0,Days,4.0,Days,12.0,Months
+498,9,"Peanuts  (boiled, shelled)","Peanuts,boiled, shelled,peanut",3.0,Years,,,,
+499,9,Refried beans,"Refried beans,refried bean",3.0,Years,,,,
+500,6,Relish,Relish,30.0,Months,9.0,Months,,
+501,23,Tomato paste,Tomato paste,27.0,Months,,,3.0,Months
+502,23,Tapenade,Tapenade,9.0,Months,9.0,Months,,
+503,23,Flaxseed (whole seed),"Flaxseed,whole seed,seed",2.0,Years,,,,
+504,23,Flaxseed (ground),"Flaxseed,ground",,,12.0,Months,12.0,Months
+505,19,Lemongrass,Lemongrass,,,9.0,Days,6.0,Months
+506,19,Cilantro,Cilantro,2.0,Weeks,3.0,Weeks,,
+507,19,Mint,Mint,2.0,Weeks,3.0,Weeks,,
+508,19,Basil (dried),"Basil,dried",12.0,Months,,,,
+509,19,Basil (fresh),"Basil,fresh",5.0,Days,10.0,Days,,
+510,19,Oregano,Oregano,2.0,Weeks,3.0,Weeks,,
+511,19,Rosemary,Rosemary,2.0,Weeks,3.0,Weeks,,
+512,19,Chives,Chives,2.0,Weeks,3.0,Weeks,,
+513,19,Thyme,Thyme,2.0,Weeks,3.0,Weeks,,
+514,25,"Turkey  (pre-packaged, luncheon/deli meat)","Turkey,pre-packaged,luncheon/deli meat,packaged,luncheon,deli",,,2.0,Weeks,2.0,Months
+515,25,"Ham (pre-packaged, luncheon/deli meat)","Ham,pre-packaged,luncheon/deli meat,packaged,luncheon,deli",,,2.0,Weeks,2.0,Months
+516,25,"Salami  (pre-packaged, luncheon/deli meat)","Salami,pre-packaged,luncheon meat,deli meat,packaged,luncheon/deli,pre",,,2.0,Weeks,2.0,Months
+517,25,"Chicken (pre-packaged, luncheon/deli meat)","Chicken,pre-packaged,luncheon meat,deli meat,packaged",,,2.0,Weeks,2.0,Months
+518,25,Canadian bacon (whole),"Canadian bacon,bacon,whole",,,2.0,Weeks,2.0,Months
+519,25,Canadian bacon (sliced),"Canadian bacon,bacon,sliced",,,10.0,Days,12.0,Months
+520,23,Canola oil,"Canola oil,canola",1.0,Years,,,,
+521,23,Almond oil,"Almond oil,almond",1.0,Years,2.0,Years,,
+522,23,Sunflower oil,"Sunflower oil,oil,sunflower",1.0,Years,,,,
+523,23,Grapeseed oil,"Grapeseed oil,grapeseed,oil",1.0,Years,,,,
+524,6,Duck fat,"Duck fat,duck",,,30.0,Days,,
+525,6,Bacon grease,"Bacon grease,bacon,grease",,,6.0,Months,12.0,Months
+526,6,Frying oil (re-used),"Frying oil,re-used oil,oil",,,1.0,Months,9.0,Months
+527,3,Almond extract,Almond extract,2.0,Years,,,,
+528,3,Cinnamon extract,Cinnamon extract,2.0,Years,,,,
+529,3,Lemon extract,"Lemon extract,lemon",2.0,Years,,,,
+530,3,Pure vanilla extract,"vanilla,vanila extract",2.0,Years,,,,
+531,3,Butter flavor,"Butter flavor,butter",2.0,Years,,,,
+532,3,Coconut flavor,"Coconut flavor,coconut",2.0,Years,,,,
+533,23,"""Genuine"" Maple syrup (unopened, glass)","Genuine Maple syrup,syrup,unopened, glass",4.0,Years,,,,
+534,23,"""Genuine"" Maple syrup (unopened, plastic)","Genuine Maple syrup,syrup,unopened, plastic",2.0,Years,24.0,Months,,
+536,5,Lemon juice (fresh squeezed),"Lemon juice,juice,fresh squeezed,squeezed,juices",,,6.0,Days,12.0,Months
+537,5,Apple juice (fresh squeezed),"Apple juice,juice,fresh squeezed,squeezed,juices,apple",,,6.0,Days,12.0,Months
+538,5,Carrot juice (fresh squeezed),"Carrot juice,juice,fresh squeezed,squeezed,juices",,,6.0,Days,12.0,Months
+539,5,Hard liquors,"Hard liquors,liquor",,,,,,
+540,5,Cream liquors (unopened),"Cream liquors,liquors,unopened,liquor",8.0,Months,,,,
+541,5,"Coffee (commercial ground, non-vacuum)","Coffee,commercial ground, non-vacuum",2.0,Years,,,12.0,Months
+542,2,Macaroons (french),"Macaroons,Macaroon,french",2.0,Days,,,3.0,Months
+543,7,Milk (lactose-free),"Milk,lactose,lactose-free",,,,,,
+544,7,String Cheese,"String Cheese,cheese",,,5.0,Months,,
+545,7,Vegan Cheddar Cheese,"Vegan Cheddar Cheese,cheese,cheddar",,,4.0,Months,,
+546,7,Quark (fresh cheese),"Quark,fresh cheese,cheese",,,10.0,Days,,
+547,19,"Zucchini (fresh, whole)","Zucchini,fresh, whole",,,1.0,Weeks,10.0,Months
+548,19,Hot peppers,"Hot peppers,pepper",,,1.0,Weeks,9.0,Months
+549,19,Bean sprouts,"Bean sprouts,bean,sprouts",,,10.0,Days,,
+550,19,Swiss chard,"Swiss chard,chard",,,2.0,Weeks,,
+551,4,Puff pastry,"Puff pastry,pastry,pastries,puff",,,,,12.0,Months
+552,4,Biscuits (refrigerated),"Biscuits,Biscuits,refrigerated",,,,,,
+553,9,Tortillas (corn),"Tortillas,corn",45.0,Days,90.0,Days,,
+554,4,Pie crust (refrigerated),"Pie crust,crust,refrigerated,pie",,,,,2.0,Months
+555,23,Granola,Granola,9.0,Months,,,,
+556,23,Pork rinds,"Pork rinds,pork,rinds",4.0,Months,,,,
+557,6,Apple cider vinegar,"Apple cider vinegar,Apple cider, vinegar,cider,apple",,,,,,
+558,5,Nutrition supplement drinks (canned),"Nutrition supplement drinks,drinks,canned,supplement,Boost,Ensure",5.0,Years,,,,
+559,6,Hot sauce,"Hot sauce,sauce",6.0,Months,,,,
+560,6,Thai red curry paste,"Thai red curry paste,red curry paste,curry paste,paste,curry",2.0,Years,,,,
+561,3,Yeast (packaged),"Yeast,packaged",2.0,Years,,,6.0,Months
+562,18,Applesauce (homemade),"Applesauce,homemade",,,3.0,Weeks,12.0,Months
+563,12,Pate (meat ),"Pate,meat",,,7.0,Days,,
+564,14,Pate (poultry),"Pate,poultry",,,7.0,Days,,
+565,6,Cranberry sauce (canned),"Cranberry sauce,sauce,canned",2.0,Years,,,,
+566,6,Cranberry sauce (homemade),"Cranberry sauce,sauce,homemade",,,10.0,Days,,
+567,5,Vegetable juice (shelf-stable),"Vegetable juice,stable,shelf,shelf-stable",18.0,Months,,,,
+568,5,"Vegetable juice (commercial, sold refrigerated)","Vegetable juice,commercial,refrigerated,vegetable",,,1.0,Months,,
+569,5,Vegetable juice (homemade),"Vegetable juice,juices,homemade,vegetable",,,,,,
+570,19,Marinated vegetables (in oil),"Marinated vegetables,vegetables,oil,vegetable",,,4.0,Days,,
+571,8,Pizza (frozen),"Pizza,frozen",,,4.0,Days,12.0,Months
+572,25,Salsa (fresh),"Salsa,fresh",,,7.0,Days,,
+573,23,Chia seeds,"Chia seeds,chia,seed,seeds",18.0,Months,,,,
+574,2,Bread (homemade),"Bread,Breads,homemade",5.0,Days,3.0,Months,,
+575,9,Amaranth (whole grain),"Amaranth,whole grain,grain",4.0,Months,,,8.0,Months
+576,3,"Amaranth (flour, meal)","Amaranth,flour,meal",2.0,Months,,,4.0,Months
+577,9,Barley (whole grain),"Barley,whole grain,grain",6.0,Months,,,12.0,Months
+578,3,"Barley (flour, meal)","Barley,flour, meal",3.0,Months,,,6.0,Months
+579,9,Buckwheat (whole grain),"Buckwheat,whole grain,grain",2.0,Months,,,4.0,Months
+580,3,"Buckwheat (flour, meal)","Buckwheat,flour, meal,meal",1.0,Months,,,2.0,Months
+581,9,Farro (whole grain),"Farro,whole grain,grain",6.0,Months,,,12.0,Months
+582,3,"Farro (flour, meal)","Farro,flour, meal",3.0,Months,,,6.0,Months
+583,9,Millet (whole grain),"Millet,whole grain,grain",2.0,Months,,,4.0,Months
+584,3,"Millet (flour, meal)","Millet,flour, meal",1.0,Months,,,2.0,Months
+585,9,Oats (whole grain),"Oat,Oats,whole grain,grain",4.0,Months,,,8.0,Months
+586,3,"Oats (flour, meal)","Oats,Oat,flour, meal",2.0,Months,,,4.0,Months
+587,9,Rye (whole grain),"Rye,whole grain,grain",6.0,Months,,,12.0,Months
+588,3,"Rye (flour, meal)","Rye,flour, meal",3.0,Months,,,6.0,Months
+589,9,Sorghum (whole grain),"Sorghum,whole grain,grain",4.0,Months,,,8.0,Months
+590,3,"Sorghum (flour, meal)","Sorghum,flour, meal",2.0,Months,,,4.0,Months
+591,9,Spelt (whole grain),"Spelt,whole grain,grain",6.0,Months,,,12.0,Months
+592,3,"Spelt (flour, meal)","Spelt,flour, meal",3.0,Months,,,6.0,Months
+593,9,Teff (whole grain),"Teff,whole grain,grain",4.0,Months,,,8.0,Months
+594,3,"Teff (flour, meal)","Teff,flour, meal",2.0,Months,,,4.0,Months
+595,10,"Rabbit (whole, fresh)","Rabbit,whole, fresh",,,2.0,Days,9.0,Months
+596,19,Spaghetti squash (whole),"Spaghetti squash,squash,whole",2.0,Months,2.0,Weeks,,
+597,19,Spaghetti squash (cut),"Spaghetti squash,squash,cut",,,5.0,Days,,
+598,3,Garam masala,Garam masala,1.0,Years,,,,
+599,6,"Tomato sauce (spaghetti, pizza)","Tomato sauce,sauce,spaghetti, pizza",,,,,,
+600,19,Cherry tomatoes,"Cherry, tomatoes,tomato",10.0,Days,5.0,Days,,
+601,23,Coconut cream (canned),"coconut cream,coconut,cream,canned,can",5.0,Years,,,3.0,Months
+602,23,Coconut milk (canned),"coconut milk,coconut,milk,canned,can",5.0,Years,,,3.0,Months
+603,25,"Coleslaw (homemade, prepared)","coleslaw,homemade,homemade coleslaw,prepared,prepared coleslaw",,,5.0,Days,,
+604,23,"Pumpkin seeds (raw, no shell)","pumpkin,pumpkin seed,pumpkin seeds,seed,seeds",6.0,Months,6.0,Months,,
+605,23,"Pumpkin seeds (raw, in-shell)","pumpkin,pumpkin seed,pumpkin seeds,seed,seeds",6.0,Months,,,,
+606,23,"Pumpkin seeds (roasted, no-shell)","pumpkin,pumpkin seed,pumpkin seeds,seed,seeds",6.0,Months,,,,
+607,23,"Pumpkin seeds (roasted, in-shell)","pumpkin,pumpkin seed,pumpkin seeds,seed,seeds",6.0,Months,,,,
+608,23,"Sunflower seeds (raw, unsalted, no shell)","sunflower,sunflower seed,sunflower seeds,seed,seeds",12.0,Months,,,,
+609,23,"Sunflower seeds (roasted, no shell)","sunflower,sunflower seed,sunflower seeds,seed,seeds,kernal,shell",12.0,Months,,,,
+610,23,"Sunflower seeds (roasted, salted, in shell)","sunflower,sunflower seed,sunflower seeds,seed,seeds",,,,,,
+611,19,Parsley (fresh),parsley,,,3.0,Days,4.0,Months
+612,23,Sesame oil,"sesame oil,sesame,oil",2.0,Years,,,,
+613,23,Sesame seeds,"sesame seeds,sesame,seeds,seed",5.0,Years,,,,
+614,23,Capers (in jar),"capers,caper,jar capers,in jar,jar",,,,,,
+615,23,Chocolate hazlenut spread,"hazelnut spread, spread, hazelnut, chocolate spread, chocolate,Nutella,cocoa,cocoa spread",,,,,,
+616,23,"Roasted nuts (peanuts, cashews, almonds)","roasted nuts,roasted,nuts,roasted peanuts,roasted almonds,roasted cashews,almonds,cashews,peanuts",,,,,,
+617,23,Tuna (packet),"tuna packet,tuna,packet,retort,retort packaging",18.0,Months,,,,
+618,23,Tuna (canned),"canned tuna,tuna,canned",3.0,Years,,,,
+619,23,Seafood (canned),"canned seafood,seafood,canned",1.0,Years,,,,
+620,7,Pimento cheese (packaged),"pimento cheese,pimento,cheese",,,,,,
+621,10,Bison (whole),"bison whole,bison,whole",,,5.0,Days,9.0,Months
+622,10,Bison (ground),"ground bison,bison,ground",,,2.0,Days,4.0,Months
+623,6,Salad dressing (creamy),"creamy salad dressing,salad,dressing,salad dressing,creamy",6.0,Months,,,,
+624,6,"Salad dressing (vinaigrette,homemade)","salad dressing,vinaigrette,salad,dressing,homemade",,,3.0,Weeks,,
+625,6,Salad dressing (vinaigrette),"salad dressing,vinaigrette,salad,dressing",6.0,Months,,,,
+626,6,"Salad dressing (dry,packaged)","salad dressing,salad,dressing,dry,packaged,package,powdered,powder",,,,,,
+627,23,Grits (boxed),"boxed grits,grits,boxed,box",12.0,Months,,,,
+628,7,"Cheese Curds (fresh, unaged)","cheese curd,cheese,curd,curds,cheese curds",,,2.0,Weeks,4.0,Months
+629,25,Vegetable soup (homemade),"vegetable soup,vegetable,soup",,,4.0,Days,3.0,Months
+630,10,Chorizo (fresh),"fresh chorizo,chorizo",,,2.0,Days,2.0,Months
+631,12,"Chorizo (smoked and processed, uncooked)","smoked chorizo,chorizo,processed chorizo,smoked,processed,uncooked,uncooked processed chorizo,uncooked smoked chorizo",,,1.0,Weeks,2.0,Months
+632,12,"Chorizo (smoked and processed, cooked)","smoked chorizo,chorizo,processed chorizo,smoked,processed,cooked,cooked processed chorizo,cooked smoked chorizo",1.0,Years,,,6.0,Months
+633,23,Beets (pickled),"pickled beets,beets,pickled",1.0,Years,,,,
+634,4,"Cinnamon rolls (unbaked, tube)","cinnamon rolls,cinnamon roll,cinnamon,roll,rolls",,,,,,
+635,3,Cinnamon rolls (baked),"cinnamon rolls,cinnamon roll,cinnamon,roll,rolls",3.0,Days,,,3.0,Months
+636,6,Cooking wine,"cooking wine,wine,cooking",,,,,,
+637,9,Bulgur,bulgur,12.0,Months,,,,
+638,10,Bratwurst (fresh),"fresh brautwurst,brautwurst,fresh",,,3.0,Days,3.0,Months
+639,12,Bratwurst (smoked and processed),"smoked brautwurst,processed brautwurst,bratwurst,smoked,processed",,,7.0,Days,3.0,Months
+640,19,Edamame (fresh),"edamame,fresh,fresh edamame,soybeans,soybean",,,5.0,Days,,
+641,8,Edamame (frozen),"edamame,frozen,frozen edamame,soybean,soybeans",,,,,2.0,Years
+642,23,"Edamame (salted, dry roasted, out of pod)","edamame,soybean,soybeans,salted,roasted,dry roasted",12.0,Months,6.0,Months,,
+643,23,Breadcrumbs (commercial),"breadcrumbs,breadcrumb",6.0,Months,,,,
+644,23,Milk  (shelf-stable),"shelf stable milk,milk,shelf,stable,UHT,ultrapasteurized,aseptic packaging",12.0,Months,,,,
+645,25,"Salsa (homemade, fresh)","homemade salsa,homemade,salsa",,,7.0,Days,12.0,Months
+646,6,"Salsa (homemade, canned)","homemade salsa,homemade,salsa",12.0,Months,,,,
+647,6,"Tomato Sauce (homemade, canned)","homemade tomato sauce,homemade sauce,homemade spaghetti sauce,spaghetti sauce,tomato sauce,homemade",12.0,Months,,,,
+648,6,"Barbecue Sauce (homemade, canned)","homemade barbecue sauce,homemade sauce,homemade BBQ sauce,BBQ sauce,barbecue sauce",12.0,Months,,,,
+649,7,Ghee,"ghee,clarified butter,clarified,butter",8.0,Months,2.0,Years,,
+650,23,Corn syrup,"corn syrup,corn,syrup",3.0,Years,,,,
+651,23,Nutrition supplement drinks (bottled),"Nutrition supplement drinks,drinks,bottled,supplement",,,,,,
+652,23,Instant breakfast drinks (bottled),"instant breakfast drinks,instant,breakfast,drinks,instant breakfast,instant drink,carnation,bottled instant breakfast drink,bottled instant breakfast,bottled breakfast",6.0,Months,,,,
+653,23,Pine nuts,"pine nuts,pine nut,pine,nut,nuts",3.0,Weeks,3.0,Months,9.0,Months
+654,3,Coconut flour,"coconut flour,coconut,flour",,,12.0,Months,12.0,Months
+655,23,Pecans (chopped),"chopped pecans,pecan,pecans,chopped",,,12.0,Months,2.0,Years
+656,23,Polenta (shelf-stable),"polenta,shelf stable,shelf stable polenta",,,,,,
+657,8,Polenta (frozen),"polenta,frozen,frozen polenta",,,,,12.0,Months
+658,23,Cereal or granola bars,"bars,bar,granola bars,granola bar,granola,cereal bars,cereal bar,nutrition bars,nutrition bar,energy bars,energy bar,health bars,health bar,fruit bars,fruit bar,snack bars,snack barsnack,,nut bars,nut bar,seed bars,seed bar,crunchy bars,crunchy bar,breakfast,breakfast bar,breakfast bars",12.0,Months,,,,
+659,23,Milk  (ultra-pasteurized),"ultra pasteurized milk,milk,pasteurized,ultra",,,3.0,Months,,
+660,5,Coconut water,"coconut water,coconut,water",12.0,Months,,,,
+661,19,Celery root,"celeriac,celery root,celery",,,1.0,Weeks,,
+662,5,Apple cider (fresh),"apple cider,apple,cider",3.0,Days,3.0,Weeks,,
+663,5,Yuzu juice,"yuzu juice,yuzu,juice",6.0,Months,12.0,Months,2.0,Years
+664,5,"Yuzu (fruit, fresh)","yuzu,yuzu fruit",,,7.0,Days,,
+665,12,Pastrami,pastrami,,,40.0,Days,,
+666,8,Kugel (commercial),"kugel,commercial,commercial kugel",,,,,1.0,Years
+667,25,Kugel (homemade),"kugel,homemade,homemade kugel",,,4.0,Days,1.0,Months
+668,23,Avocado Oil,"avodaco oil,avocado,oil",2.0,Years,,,,
+669,6,Balsamic vinegar,"balsamic vinegar,balsamic,vinegar",5.0,Years,,,,
+670,6,Aioli (homemade),"garlic aioli,aioli,garlic,mayonnaise,mayo,garlic mayo,garlic mayonnaise,mayo",,,4.0,Days,,
+671,6,Salad dressing (homemade),"homemade salad dressing,homemade,salad dressing,salad,dressing",,,,,,
+672,23,"Base (beef, vegetable)","beef base,vegetable base,base,beef,vegetable",,,,,,
+673,6,Anchovies (canned),"anchovies,anchovy,canned anchovies",5.0,Years,,,2.0,Months
+674,19,Radicchio,radicchio,,,3.0,Weeks,,
+675,12,Prosciutto,prosciutto,,,3.0,Months,1.0,Months
+676,12,"Ham  (uncured, fresh, cooked)","ham,uncured,fresh,cooked,uncured ham,fully cooked,fully cooked uncured ham",,,4.0,Days,4.0,Months
+677,10,"Ham  (uncured, fresh, uncooked)","ham,uncured,fresh,uncooked,uncured ham,uncured ham uncooked",,,5.0,Days,6.0,Months
+678,19,Arugula,"arugula,greens,salad greens,salad",,,7.0,Days,,
+679,9,Mung bean (sprouts),"sprouted mung beans,sprouted mung bean,sprout,mung beans,mung bean,mung,bean,mungbean,sprouts",,,6.0,Weeks,,
+680,9,"Mung bean (dry, food-grade bags)","mung beans,mung bean,mung,bean,dry mung beans,dry,bag,bagged mung beans",1.0,Years,1.0,Years,1.0,Years
+681,9,"Mung bean (dry, vacuum-sealed)","mung beans,mung bean,mung,bean,dry mung beans,dry,vacuum sealed,vacuum sealed mung beans",10.0,Years,,,,
+682,23,Croutons,"croutons,crouton,bread",6.0,Months,6.0,Months,12.0,Months
+683,12,Bacon (uncured),"uncured bacon,nitrite-free bacon,natural bacon,uncured,nitrite-free,nitrite,natural,bacon",,,7.0,Days,4.0,Weeks
+684,23,"Mustard (dried, ground)","mustard,dried mustard,ground mustard,dried ground mustard",6.0,Months,,,2.0,Years
