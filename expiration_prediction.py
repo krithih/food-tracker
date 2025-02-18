@@ -6,6 +6,7 @@ from sklearn.preprocessing import OneHotEncoder
 import joblib  # For saving and loading models
 
 
+
 class ExpirationPredictor:
     def __init__(self, csv_file="cleaned_shelf_life.csv"):
         self.df = pd.read_csv(csv_file)
@@ -37,12 +38,12 @@ class ExpirationPredictor:
         self.fridge_model = self.train_model(self.X_fridge, self.y_fridge, "fridge_model.pkl")
         self.freezer_model = self.train_model(self.X_freezer, self.y_freezer, "freezer_model.pkl")
 
-    def train_model(self, X, y, model_filename):
+    def train_model(self, X, y, model_filename):  
         """Train or load a model to avoid retraining"""
         try:
             model = joblib.load(model_filename)  # Load saved model if available
             print(f"Loaded {model_filename} from disk.")
-        except FileNotFoundError:
+        except FileNotFoundError:      #if the .pkl files don't exist
             model = RandomForestRegressor(n_estimators=100, random_state=42)
             model.fit(X, y)
             joblib.dump(model, model_filename)  # Save model for future use
@@ -50,8 +51,7 @@ class ExpirationPredictor:
         return model
 
     def predict_expiration(self, name, match):
-        """Predict expiration if match isn't in the food database"""
-        if match in self.food_database:
+        if match in self.food_database:  #if there is a match to the food in cleaned_shelf_life.csv, Ex: mustard, then food doesn't need to go through the model
             return {
                 "Pantry Life": self.food_database[match][0],
                 "Refrigerator Life": self.food_database[match][1],

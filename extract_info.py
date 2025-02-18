@@ -5,17 +5,17 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 from fuzzywuzzy import process
 from datetime import date
+import pandas as pd
 
-# Known food database with estimated expiration times (days)
+# Configuration
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+# Load and prepare data
+df = pd.read_csv("cleaned_shelf_life.csv")
 food_database = {
-    "Milk": 7,
-    "Organic Milk": 10,
-    "Eggs": 21,
-    "Chicken": 3,
-    "Bread": 5,
-    "Apples": 14
+    row["Name"]: [row["Pantry_shelf_life_days"], row["Refrigerator_shelf_life_days"], row["Freezer_shelf_life_days"]]
+    for _, row in df.iterrows()
 }
-
 #used to match to current database. If theres a good enough match, it doesn't need to be run through the AI model
 def fuzzy_match(item):
     best_match, score = process.extractOne(item, food_database.keys())
@@ -33,17 +33,11 @@ def extract_text(image_path):
 
     # Apply OCR
     text = pytesseract.image_to_string(image)
-    print(text)
-    print(" ---------------- ")
     
     # Clean text
     text = text.lower().strip()  # Convert to lowercase & trim spaces
-    print(text)
-    print(" ---------------- ")
     text = re.sub(r"(.+?)\s+\$?(\d+\.\d{2})", "", text)  # Remove special characters except . and $
     
-    print(text)
-    print(" ---------------- ")
     return text
 
 
@@ -66,7 +60,7 @@ ignore_keywords = [
     # Misc
     "open", "hours", "copyright", "all rights reserved",
     "printed", "duplicate", "copy", "original", "void",
-    "cashier", "register","transaction"
+    "cashier", "register","transaction","store",
 ]
 
 
@@ -103,18 +97,14 @@ def extract_receipt_info(text):
 
     for line in lines:
         line = line.strip()
-        print(f"Processing line: {line}")
 
         if is_header_line(line):
-            print(f"Skipping header line: {line}")
             continue
 
         if has_ignore_words(line):
-            print(f"Ignoring line: {line}")
             continue
 
         if is_footer_line(line):
-            print(f"Reached footer, stopping processing: {line}")
             break
 
         item_match = re.search(item_price_pattern, line, re.IGNORECASE)
@@ -126,7 +116,6 @@ def extract_receipt_info(text):
                 "item_name": item_name, 
                 "match": fuzzy_item_match, 
             })
-            print(f"Item: {item_name}, Fuzzy match: {fuzzy_item_match}")
 
     return items
 
