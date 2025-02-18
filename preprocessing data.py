@@ -1,8 +1,12 @@
 import pandas as pd
 import numpy as np
+'''
+This file was used to standardize the data from the converted csv file, test.csv, because it was either in months, days, or weeks
+**Only runs once
+test.csv --> modified cleaned_shelf_life.csv
+'''
 
 def convert_to_days(value, metric):
-    """Converts shelf life values to days based on their metric."""
     if pd.isna(value) or pd.isna(metric):
         return np.nan  # Keep NaN values for missing entries
     

@@ -1,8 +1,10 @@
 import json
 import pandas as pd
-'''This file was used to convert the JSON File I downloaded from the USDA website to a csv, so it was easier for the AI model to read it'''
-#food_data.json ---> test.csv
-
+'''
+This file was used to convert the JSON File I downloaded from the USDA website to a csv, so it was easier for the AI model to read it
+**Only runs once
+food_data.json ---> test.csv
+'''
 # Open JSON file
 with open('food_data.json', encoding="utf8") as f:
     data = json.load(f)  # data is a list of lists of dictionaries

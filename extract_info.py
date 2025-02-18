@@ -97,13 +97,9 @@ def has_ignore_words(line):
 def extract_receipt_info(text):
     lines = text.split("\n")
     items = []
-    total_price = None
-    date = None
 
     # Improved regex patterns
     item_price_pattern = r"([a-zA-Z\s\-]+)(?:\s+(\d+\.\d{2}))?"
-    total_pattern = r"total\s*\$?(\d+\.\d{2})"
-    date_pattern = r"\b\d{1,2}/\d{1,2}/\d{2,4}\b"
 
     for line in lines:
         line = line.strip()
@@ -124,15 +120,13 @@ def extract_receipt_info(text):
         item_match = re.search(item_price_pattern, line, re.IGNORECASE)
         if item_match:
             item_name = item_match.group(1).strip()
-            price = item_match.group(3)  # Price may be None if not matched
             
             fuzzy_item_match = fuzzy_match(item_name)
             items.append({
                 "item_name": item_name, 
                 "match": fuzzy_item_match, 
-                "price": float(price) if price else None
             })
-            print(f"Item: {item_name}, Price: {price}, Fuzzy match: {fuzzy_item_match}")
+            print(f"Item: {item_name}, Fuzzy match: {fuzzy_item_match}")
 
     return items
 
