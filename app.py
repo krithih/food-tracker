@@ -12,7 +12,7 @@ from expiration_prediction import ExpirationPredictor
 
 # Flask app initialization
 app = Flask(__name__)
-CORS(app, resources={r"/upload": {"origins": "http://localhost:5500"}})
+CORS(app)
 
 # Database configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///food_expiration.db'
@@ -30,6 +30,7 @@ class FoodItem(db.Model):
     pantry_expiration = db.Column(db.DateTime, nullable=True)
     refrigerator_expiration = db.Column(db.DateTime, nullable=True)
     freezer_expiration = db.Column(db.DateTime, nullable=True)
+    
 
     def __init__(self, item_name, match, pantry_life, refrigerator_life, freezer_life):
         self.item_name = item_name
@@ -140,7 +141,10 @@ def get_food_items():
             "match": item.match,
             "pantry_life": item.pantry_life,
             "refrigerator_life": item.refrigerator_life,
-            "freezer_life": item.freezer_life
+            "freezer_life": item.freezer_life,
+            "pantry_expiration" : item.pantry_expiration.strftime("%Y-%m-%d") if item.pantry_expiration else None,
+            "refrigerator_expiration" : item.refrigerator_expiration.strftime("%Y-%m-%d") if item.refrigerator_expiration else None,
+            "freezer_expiration" : item.freezer_expiration.strftime("%Y-%m-%d") if item.freezer_expiration else None
         }
         for item in items
     ])

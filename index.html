@@ -24,12 +24,26 @@
             
         </section>
 
-        <section class="extractedText-section">
-            <h2>Extracted Food Items</h2>
-            <p id="extractedText"> 
-                <!-- Extracted food items will be displayed here -->
-            </p>
+        <section>
+            <h2>Tracked Food Items</h2>
+            <table class="food-table">
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Pantry Life (days)</th>
+                        <th>Pantry Expiration date</th>
+                        <th>Refrigerator Life (days)</th>
+                        <th>Refrigerator Expiration Date</th>
+                        <th>Freezer Life (days)</th>
+                        <th>Freezer Expiration Date</th>
+                        <th>Match</th>
+                    </tr>
+                </thead>
+                <tbody id="food-table-body">
+                </tbody>
+            </table>
         </section>
+
     </main>
 
     <script src="script.js"></script>

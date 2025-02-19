@@ -25,6 +25,7 @@ def fuzzy_match(item):
 
 #used for image, image to text
 def extract_text(image_path):
+
     # Open image using PIL
     image = Image.open(image_path)
 
@@ -60,7 +61,7 @@ ignore_keywords = [
     # Misc
     "open", "hours", "copyright", "all rights reserved",
     "printed", "duplicate", "copy", "original", "void",
-    "cashier", "register","transaction","store",
+    "cashier", "register","transaction","store","market"
 ]
 
 
