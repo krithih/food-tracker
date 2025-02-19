@@ -15,6 +15,7 @@ Project Structure
 📂 uploads/ → Stores uploaded receipt images.
 📄 app.py → Main Flask application that handles requests.
 📄 cleaned_shelf_life.csv → Preprocessed shelf-life data for food items.
+📄 clear_database.py → running it once clears food_expiration.db completely
 📄 converting.py → Converts JSON data from the USDA website into the correct format (csv) for processing without altering any data.
 📄 expiration_prediction.py → AI model for predicting expiration dates.
 📄 extract_info.py → Extracts food item details from uploaded receipts.
